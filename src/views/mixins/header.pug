@@ -1,0 +1,26 @@
+mixin header
+  .header-wrapper
+    .header
+      .header__logo
+        a
+          img(src='./images/logo.png' class='header__img')
+      ul.header__nav
+        li
+          a(href="#") ЗНАКОМЬТЕСЬ: MUVO
+        li
+          span ОБОРУДОВАНИЕ
+            ul.header__nav-items
+              -
+                var list = ["базовое шасси", "вакуумное подметально-уборочное приспособление",
+                  "распределитель соли и песка","косилки", "снежные плуги", "шнекоротор",
+                  "Переднее приспособление для мойки", "бункеровоз", "передняя щетка"]
+              each item in list
+                li
+                  a(href="#")= item
+        li
+          a(href="#") ГАЛЕРЕЯ
+        li
+          a(href="#") КАЧЕСТВО
+        li
+          a(href="#") НОВОСТИ
+

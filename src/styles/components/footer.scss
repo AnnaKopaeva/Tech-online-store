@@ -1,0 +1,52 @@
+
+.footer-wrapper {
+  background-color: $footer-color;
+  flex: 0 0 auto;
+  .footer {
+    margin: auto;
+    max-width: $width_main_block;
+    padding: 0 15px;
+    font-family: Arial, 'sans-serif';
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+    padding-bottom: 50px;
+  }
+}
+
+.about {
+  .about__text {
+    font-size: 13px;
+    line-height: 20px;
+    color: $dark-grey;
+    max-width: 270px;
+    display: inline-block;
+  }
+}
+.phone {
+  color: $dark-grey;
+  .phone__text {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .phone-number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.company {
+  .company__text {
+    font-size: 13px;
+    line-height: 20px;
+    color: $dark-grey;
+    display: inline-block;
+    text-align: right;
+    max-width: 160px;
+  }
+  .company__img {
+    display: inline-block;
+    margin-left: 15px;
+  }
+}

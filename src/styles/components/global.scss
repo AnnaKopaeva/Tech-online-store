@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  padding-top: $header_height;
+  flex: 1 0 auto;
+  background-color: $granit;
+}
+
+

@@ -1,0 +1,15 @@
+@import '../themes/colors';
+.wrapper-about {
+  width: $width_main_block;
+  margin: auto;
+  padding: 0 15px;
+}
+.breadcrumbs {
+  .breadcrumbs__item {
+    display: inline-block;
+    &:after {
+      content: ">";
+      color: $light-granit;
+    }
+  }
+}

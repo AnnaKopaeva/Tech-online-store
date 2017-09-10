@@ -1,0 +1,41 @@
+//
+// Settings
+// --------------------------------------------------
+
+@import "settings/variables";
+@import "settings/functions";
+@import "settings/mixins";
+
+//
+// Core
+// --------------------------------------------------
+
+@import "core/reset";
+@import "core/base";
+
+//
+// Objects
+// --------------------------------------------------
+
+@import "objects/sample";
+@import "../../bower_components/pgwslider/pgwslider.min";
+@import "../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome";
+@import "../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome-sprockets";
+
+//
+// Utilities
+// --------------------------------------------------
+
+@import "utilities/sample";
+
+//
+// Components
+// --------------------------------------------------
+
+@import "components/sample";
+
+//
+// Themes
+// --------------------------------------------------
+
+@import "themes/colors";

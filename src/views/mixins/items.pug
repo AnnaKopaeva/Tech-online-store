@@ -1,0 +1,83 @@
+include ./basis
+mixin items-element
+  -
+    var propItems1 = [
+      {
+        name: "Вакуумное подметально-уборочное приспособление",
+        price: "245 000",
+        imgSrc: "Item1.png",
+        lineSrc: "Line1.png"
+      }, {
+        name: "Распределитель соли и песка",
+        price: "320 000",
+        imgSrc: "Item2.png",
+        lineSrc: "Line2.png"
+      }
+    ];
+    var propItems2 = [
+      {
+        name: "Передняя щетка",
+        price: "199 000",
+        imgSrc: "Item6.png",
+        lineSrc: "Line8.png"
+      }, {
+        name: "Бункеровоз",
+        price: "375 000",
+        imgSrc: "Item7.png",
+        lineSrc: "Line7.png"
+      }
+    ];
+    var propItems3 = [
+      {
+        name: "Косилки",
+        price: "400 000",
+        imgSrc: "Item3.png",
+        lineSrc: "Line3.png"
+      }, {
+        name: "Снежные плуги",
+        price: "45 000",
+        imgSrc: "Item4.png",
+        lineSrc: "Line4.png"
+      }, {
+        name: "Шнекоротор",
+        price: "132 990",
+        imgSrc: "Item5.png",
+        lineSrc: "Line5.png"
+      }, {
+        name: "Переднее приспособление для мойки",
+        price: "280 000",
+        imgSrc: "Item8.png",
+        lineSrc: "Line6.png"
+      }
+    ];
+
+  .wrapper_blocks
+    ul.block1
+      each item in propItems1
+        li.block_item
+          img(src=`./images/itemImg/${item.imgSrc}` class="block_item__img")
+          .block_item__about
+            p(class="block_item__name")= item.name
+            span(class="block_item__price")= item.price + " ₽"
+          img(src=`./images/line/${item.lineSrc}` class="block_item__line")
+
+    +basis-element
+
+    ul.block2
+      each item in propItems2
+        li.block_item
+          img(src=`./images/itemImg/${item.imgSrc}` class="block_item__img")
+          .block_item__about
+            p(class="block_item__name")= item.name
+            span(class="block_item__price")= item.price + " ₽"
+          img(src=`./images/line/${item.lineSrc}` class="block_item__line")
+
+  ul.block3
+    each item in propItems3
+      li.block_item
+        img(src=`./images/itemImg/${item.imgSrc}` class="block_item__img")
+        .block_item__about
+          p(class="block_item__name")= item.name
+          span(class="block_item__price")= item.price + " ₽"
+        img(src=`./images/line/${item.lineSrc}` class="block_item__line")
+

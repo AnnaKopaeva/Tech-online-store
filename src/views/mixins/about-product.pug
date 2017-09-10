@@ -1,0 +1,14 @@
+include ./slider
+
+mixin about-product
+  -
+    var breadCrumbsItem = ["Оборудование", "Шнекоротор"];
+
+  .wrapper-about
+    ul.breadcrumbs
+      li.breadcrumbs__item
+        i(class="fa fa-home" aria-hidden="true")
+      each item in breadCrumbsItem
+        li= item
+
+    +slider

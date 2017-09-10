@@ -1,0 +1,150 @@
+.items-wrapper {
+  max-width: $width_main_block;
+  padding: 0 15px;
+  margin: auto;
+  padding-bottom: 52px;
+  .items {
+    width: 100%;
+  }
+}
+.wrapper_blocks {
+  display: flex;
+}
+
+.block_item {
+  max-width: 250px;
+  font-family: 'Roboto', sans-serif;
+  flex: 2;
+  .block_item__about {
+    display: block;
+    .block_item__name {
+      color: $font-color;
+      font-size: 14px;
+      line-height: 15px;
+      padding-top: 9px;
+    }
+    .block_item__price {
+      font-weight: 900;
+      color: $font-color;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  .block_item__line {
+    position: absolute;
+  }
+}
+
+.block1 {
+  padding-top: 2px;
+  .block_item {
+    position: relative;
+    &:nth-child(1) {
+      .block_item__line {
+        top: 118px;
+        right: -189px;
+      }
+    }
+    &:nth-child(2) {
+      .block_item__line {
+        top: 50px;
+        right: -88px;
+      }
+    }
+  }
+}
+.block2 {
+  .block_item {
+    position: relative;
+    .block_item__about {
+      padding-left: 42px;
+    }
+    &:nth-child(1) {
+      .block_item__line {
+        top: 51px;
+        left: -152px;
+      }
+    }
+    &:nth-child(2) {
+      .block_item__line {
+        top: 105px;
+        left: -159px;
+      }
+    }
+  }
+}
+.block3 {
+  .block_item {
+    position: relative;
+    &:nth-child(1) {
+      .block_item__line {
+        top: -145px;
+        right: -95px;
+      }
+    }
+    &:nth-child(2) {
+      .block_item__line {
+        top: -87px;
+        right: -10px;
+      }
+    }
+    &:nth-child(3) {
+      .block_item__line {
+        top: -45px;
+        left: 53px;
+      }
+    }
+    &:nth-child(4) {
+      .block_item__line {
+        top: -100px;
+        left: -166px;
+      }
+    }
+  }
+}
+
+.block1, .block2 {
+  .block_item {
+    margin-top: 40px;
+    display: block;
+  }
+}
+
+.block3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  .block_item {
+    vertical-align: top;
+    list-style: none;
+    display: inline-block;
+  }
+}
+
+.basis-block {
+  margin-top: 40px;
+  text-align: center;
+  flex: 1;
+  .basis-block__about {
+    background-image: url('../images/itemImg/fond.png');
+    background-repeat: no-repeat;
+    font-weight: 700;
+    color: $white;
+    font-size: 22px;
+    display: inline-block;
+    height: 74px;
+    line-height: 50px;
+    padding: 0 18px;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: -45px;
+  }
+  .basis-block__img {
+    position: relative;
+    top: -3px;
+    left: -43px;
+  }
+}
+
+
