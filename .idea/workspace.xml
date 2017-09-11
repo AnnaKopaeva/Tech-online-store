@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="Added script to bundle">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/ninja-slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/thumbnail-slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/mixins/slider_element.pug" />
+    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="Changed slider element part-2">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/product.html" afterPath="$PROJECT_DIR$/build/product.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.js" afterPath="$PROJECT_DIR$/build/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.min.js" afterPath="$PROJECT_DIR$/build/scripts/main.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.css" afterPath="$PROJECT_DIR$/build/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.min.css" afterPath="$PROJECT_DIR$/build/styles/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vendors/bundle.js" afterPath="$PROJECT_DIR$/build/vendors/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vendors/bundle.min.js" afterPath="$PROJECT_DIR$/build/vendors/bundle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/main.js" afterPath="$PROJECT_DIR$/src/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_sample.scss" afterPath="$PROJECT_DIR$/src/styles/components/_sample.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vendors/bundle.js" afterPath="$PROJECT_DIR$/src/vendors/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vendors/bundle.min.js" afterPath="$PROJECT_DIR$/src/vendors/bundle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/about-product.pug" afterPath="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,11 +34,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider_element.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slider_element.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/mixins/slider_element.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendors/bundle.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vendors/bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,6 +80,28 @@
             <state relative-caret-position="85">
               <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/components/slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ninja-slider.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <marker date="1505163492622" expanded="true" signature="13581:13588" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/table.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/footer.scss" />
-        <option value="$PROJECT_DIR$/src/scripts/components/slider.js" />
         <option value="$PROJECT_DIR$/src/styles/themes/_colors.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/slider.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/about-product.scss" />
@@ -130,8 +162,6 @@
         <option value="$PROJECT_DIR$/src/views/includes/head.pug" />
         <option value="$PROJECT_DIR$/src/views/includes/scripts.pug" />
         <option value="$PROJECT_DIR$/src/styles/components/characteristics.scss" />
-        <option value="$PROJECT_DIR$/src/vendors/bundle.js" />
-        <option value="$PROJECT_DIR$/src/vendors/bundle.min.js" />
         <option value="$PROJECT_DIR$/build/vendors/bundle.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
@@ -141,6 +171,9 @@
         <option value="$PROJECT_DIR$/src/styles/components/_sample.scss" />
         <option value="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
         <option value="$PROJECT_DIR$/src/views/mixins/slider_element.pug" />
+        <option value="$PROJECT_DIR$/src/vendors/bundle.min.js" />
+        <option value="$PROJECT_DIR$/src/vendors/bundle.js" />
+        <option value="$PROJECT_DIR$/src/scripts/components/slider.js" />
       </list>
     </option>
   </component>
@@ -341,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gulp.js.gulp server">
+  <component name="RunManager" selected="Gulp.js.gulp build">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -401,7 +434,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="66767000" />
+      <workItem from="1505034336835" duration="67186000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -487,14 +520,22 @@
       <option name="project" value="LOCAL" />
       <updated>1505162309942</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Changed slider element">
+      <created>1505164532478</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1505164532478</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107741000" />
+    <option name="totallyTimeSpent" value="108160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,7 +544,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25728154" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.49702382" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.49702382" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313988" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -538,7 +579,8 @@
     <MESSAGE value="Added script" />
     <MESSAGE value="Added script to production" />
     <MESSAGE value="Added script to bundle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added script to bundle" />
+    <MESSAGE value="Changed slider element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed slider element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -739,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/components/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/sample.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-569">
@@ -851,41 +885,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vendors/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vendors/bundle.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <marker date="1505163492622" expanded="true" signature="13581:13588" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,6 +964,40 @@
         <state relative-caret-position="68">
           <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendors/bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendors/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/components/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1505163492622" expanded="true" signature="13581:13588" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

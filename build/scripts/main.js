@@ -1,10 +1,5 @@
 'use strict';
 
-$('.pgwSlider').pgwSlider({
-  autoSlide: false,
-  displayControls: true
-});
-
 var listElement = $('.characteristics__item');
 
 listElement.click(function () {
