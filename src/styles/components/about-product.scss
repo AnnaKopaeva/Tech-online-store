@@ -15,6 +15,13 @@
   padding-bottom: 21px;
 }
 
+.wrapper-description-product {
+  display: none;
+}
+.active-block {
+  display: block;
+}
+
 .breadcrumbs {
   .breadcrumbs__item {
     display: inline-block;

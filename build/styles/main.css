@@ -3915,6 +3915,14 @@ body {
   padding-bottom: 21px;
 }
 
+.wrapper-description-product {
+  display: none;
+}
+
+.active-block {
+  display: block;
+}
+
 .breadcrumbs .breadcrumbs__item {
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -4018,22 +4026,6 @@ body {
   vertical-align: bottom;
 }
 
-.characteristics__item:hover {
-  border-bottom: 1px solid #ff4c0e;
-}
-
-.characteristics__item:hover .characteristics__name {
-  color: #111111;
-}
-
-.characteristics__item:hover .characteristics__img {
-  display: none;
-}
-
-.characteristics__item:hover .characteristics__img-black {
-  display: inline-block;
-}
-
 .characteristics__item:last-child {
   padding-right: 0px;
 }
@@ -4052,6 +4044,22 @@ body {
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
   font-weight: 700;
+}
+
+.active {
+  border-bottom: 1px solid #ff4c0e;
+}
+
+.active .characteristics__name {
+  color: #111111;
+}
+
+.active .characteristics__img {
+  display: none;
+}
+
+.active .characteristics__img-black {
+  display: inline-block;
 }
 
 .product__text {
@@ -4123,6 +4131,24 @@ div.pgwSlider ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0px;
+  background: #282828;
+  border: none;
+  border-radius: 0;
+}
+
+.pgwSlider .ps-current .ps-prev:before {
+  content: "\f106";
+  color: white;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 23px;
+}
+
+.pgwSlider .ps-current .ps-prev .ps-prevIcon {
+  display: none;
 }
 
 .pgwSlider .ps-current .ps-next {
@@ -4138,4 +4164,22 @@ div.pgwSlider ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0px;
+  background: #282828;
+  border: none;
+  border-radius: 0;
+}
+
+.pgwSlider .ps-current .ps-next:before {
+  content: "\f107";
+  color: white;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 23px;
+}
+
+.pgwSlider .ps-current .ps-next .ps-nextIcon {
+  display: none;
 }

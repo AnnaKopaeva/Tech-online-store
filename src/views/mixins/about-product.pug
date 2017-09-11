@@ -16,14 +16,19 @@ mixin about-product
         +description-element
     .characteristics
       +characteristics-element
+    div(class='wrapper-description-product active-block', id='table')
       p.product__text Автоцистерна АТЗ-46681F-17 предназначена для
         | транспортировки, временного хранения и дозированной
         | заправки светлых нефтепродуктов плотностью не более
         | 860 кг/м3.
-    .table-wrapper
-      +table-element
+      .table-wrapper
+        +table-element
+    div(class='wrapper-description-product', id='descr')
+      p(class='product__text') Автоцистерна АТЗ-46681F-17 предназначена для
+        | транспортировки, временного хранения и дозированной
+        | заправки светлых нефтепродуктов плотностью не более
+        | 860 кг/м3.
     .video-wrapper
       iframe(type='text/html' width='860' height='510'
         src='https://www.youtube.com/embed/5kGFefOe9to'
         frameborder='0' allowfullscreen)
-

@@ -24,6 +24,22 @@ div.pgwSlider {
       z-index: 5;
       display: flex;
       justify-content: center;
+      padding: 0px;
+      background: $dark-black;
+      border: none;
+      border-radius: 0;
+      &:before {
+        content: "\f106";
+        color: white;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        font-size: 23px;
+      }
+      .ps-prevIcon {
+        display: none;
+      }
     }
     .ps-next {
       position: absolute;
@@ -34,6 +50,22 @@ div.pgwSlider {
       z-index: 5;
       display: flex;
       justify-content: center;
+      padding: 0px;
+      background: $dark-black;
+      border: none;
+      border-radius: 0;
+      &:before {
+        content: "\f107";
+        color: white;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        font-size: 23px;
+      }
+      .ps-nextIcon {
+        display: none;
+      }
     }
   }
 }

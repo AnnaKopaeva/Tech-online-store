@@ -20,18 +20,6 @@
   margin-bottom: -1px;
   transition: border-bottom 0.5s;
   vertical-align: bottom;
-  &:hover {
-    border-bottom: 1px solid $light-orange;
-    .characteristics__name {
-      color: $black;
-    }
-    .characteristics__img {
-      display: none;
-    }
-    .characteristics__img-black {
-      display: inline-block;
-    }
-  }
   &:last-child {
     padding-right: 0px;
   }
@@ -46,6 +34,19 @@
     color: $dark-granit;
     transition: color 0.5s;
     font-weight: 700;
+  }
+}
+
+.active {
+  border-bottom: 1px solid $light-orange;
+  .characteristics__name {
+    color: $black;
+  }
+  .characteristics__img {
+    display: none;
+  }
+  .characteristics__img-black {
+    display: inline-block;
   }
 }
 

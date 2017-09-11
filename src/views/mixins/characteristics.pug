@@ -3,15 +3,19 @@ mixin characteristics-element
     var characteristicsList = [
       {
         name: "Характеристики",
-        imgSrc: "gears"
+        imgSrc: "gears",
+        id: "table",
+        className: "active"
       }, {
         name: "Описание",
-        imgSrc: "descr"
+        imgSrc: "descr",
+        id: "descr",
+        className: ""
       }
     ]
   ul.characteristics__list
     each item in characteristicsList
-      li.characteristics__item
+      li(class=`characteristics__item ${item.className}`, data-id=`${item.id}`)
         img(src=`./images/characteristics/${item.imgSrc}.black.png`
           alt="characteristics"
           class="characteristics__img-black")
