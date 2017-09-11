@@ -1,7 +1,7 @@
 @import '../themes/colors';
 
 .characteristics {
-  padding-top: 70px;
+  padding-top: 47px;
   font-family: $Arial;
 }
 
@@ -13,8 +13,8 @@
 .characteristics__item {
   list-style: none;
   cursor: pointer;
-  padding-bottom: 10px;
-  padding-right: 28px;
+  padding-bottom: 6px;
+  padding-right: 26px;
   border-bottom: 1px solid transparent;
   display: inline-block;
   margin-bottom: -1px;
@@ -50,9 +50,9 @@
 }
 
 .product__text {
-  padding-top: 40px;
+  padding-top: 34px;
   font-size: 15px;
   line-height: 24px;
   color: $dark-font-color;
-  max-width: 870px;
+  max-width: 874px;
 }

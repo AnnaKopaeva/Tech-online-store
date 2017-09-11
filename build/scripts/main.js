@@ -1,3 +1,6 @@
 'use strict';
 
-$('.pgwSlider').pgwSlider();
+$('.pgwSlider').pgwSlider({
+  autoSlide: false,
+  displayControls: true
+});

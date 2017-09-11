@@ -270,6 +270,214 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
   top: 40%;
 }
 
+/**
+ * PgwSlideshow - Version 2.0
+ *
+ * Copyright 2014, Jonathan M. Piat
+ * http://pgwjs.com - http://pagawa.com
+ *
+ * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ */
+.pgwSlideshow {
+  width: 100%;
+  background: #333;
+  display: none;
+}
+
+.pgwSlideshow a {
+  color: #fff;
+}
+
+.pgwSlideshow .ps-current {
+  text-align: center;
+  position: relative;
+  min-height: 150px;
+  overflow: hidden;
+}
+
+.pgwSlideshow .ps-current > ul > li {
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  display: block;
+}
+
+.pgwSlideshow .ps-current > ul > li img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.pgwSlideshow .ps-caption {
+  background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endColorstr='#99000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+  text-align: left;
+  font-size: 1rem;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  display: none;
+}
+
+.pgwSlideshow .ps-caption span {
+  padding: 7px;
+  display: inline-block;
+}
+
+.pgwSlideshow .ps-list {
+  border-top: 1px solid #555;
+  box-shadow: 0 10px 10px -5px #333 inset;
+  background: #555;
+  overflow: hidden;
+  position: relative;
+}
+
+.pgwSlideshow .ps-list ul {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+.pgwSlideshow .ps-list li {
+  float: left;
+}
+
+.pgwSlideshow .ps-list li .ps-item {
+  display: block;
+  margin: 15px 8px;
+  opacity: .6;
+  filter: alpha(opacity=60);
+}
+
+.pgwSlideshow .ps-list li img {
+  display: block;
+  border: 1px solid #777;
+  width: 80px;
+  height: 80px;
+}
+
+.pgwSlideshow .ps-list li .ps-item.ps-selected {
+  float: left;
+  opacity: 1;
+  border: 4px solid #fff;
+  overflow: hidden;
+}
+
+.pgwSlideshow .ps-list li .ps-item.ps-selected img {
+  margin: -4px;
+}
+
+.pgwSlideshow .ps-prevIcon {
+  border-color: transparent #fff transparent;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  display: block;
+}
+
+.pgwSlideshow .ps-nextIcon {
+  border-color: transparent #fff transparent;
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+  display: block;
+}
+
+.pgwSlideshow .ps-current .ps-prev {
+  background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endColorstr='#99000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+  border: 1px solid #777;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+  position: absolute;
+  padding: 20px 20px 20px 15px;
+  left: 0;
+  top: 45%;
+  cursor: pointer;
+}
+
+.pgwSlideshow .ps-current .ps-next {
+  background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endColorstr='#99000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+  border: 1px solid #777;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+  position: absolute;
+  padding: 20px 15px 20px 20px;
+  right: 0;
+  top: 45%;
+  cursor: pointer;
+}
+
+.pgwSlideshow .ps-list .ps-prev {
+  background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000',endColorstr='#bb000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000', endColorstr='#bb000000')";
+  border: 1px solid #777;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+  padding: 20px 15px 20px 12px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: 1000;
+  display: none;
+}
+
+.pgwSlideshow .ps-list .ps-next {
+  background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000',endColorstr='#bb000000');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000', endColorstr='#bb000000')";
+  border: 1px solid #777;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+  padding: 20px 12px 20px 15px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  z-index: 1000;
+  display: none;
+}
+
+.pgwSlideshow.narrow .ps-list li img {
+  width: 60px;
+  height: 60px;
+}
+
+.pgwSlideshow.narrow .ps-current .ps-prev {
+  padding: 15px 15px 15px 12px;
+  top: 40%;
+}
+
+.pgwSlideshow.narrow .ps-current .ps-next {
+  padding: 15px 12px 15px 15px;
+  top: 40%;
+}
+
+.pgwSlideshow.narrow .ps-list .ps-prev {
+  padding: 15px 12px 15px 10px;
+  top: 20px;
+}
+
+.pgwSlideshow.narrow .ps-list .ps-next {
+  padding: 15px 10px 15px 12px;
+  top: 20px;
+}
+
+.pgwSlideshow.narrow .ps-caption {
+  font-size: .8rem;
+  padding: 8px;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3326,7 +3534,7 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
 .header-wrapper {
   background-color: #282828;
   position: fixed;
-  z-index: 1;
+  z-index: 15;
   width: 100%;
 }
 
@@ -3630,6 +3838,8 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
 
 .phone {
   color: #444444;
+  margin-top: -3px;
+  margin-left: -47px;
 }
 
 .phone .phone__text {
@@ -3642,6 +3852,10 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
+}
+
+.company {
+  margin-top: 3px;
 }
 
 .company .company__text {
@@ -3687,7 +3901,7 @@ body {
   margin: auto;
   padding: 0 15px;
   padding-top: 50px;
-  padding-bottom: 105px;
+  padding-bottom: 100px;
 }
 
 .about-product {
@@ -3698,6 +3912,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 21px;
 }
 
 .breadcrumbs .breadcrumbs__item {
@@ -3737,7 +3952,7 @@ body {
 .title-product {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  padding-top: 25px;
+  padding-top: 16px;
   font-size: 36px;
 }
 
@@ -3754,17 +3969,18 @@ body {
   font-size: 14px;
   line-height: 21px;
   color: #444444;
+  margin-top: -6px;
 }
 
 .description .description__price {
-  margin-top: 46px;
+  margin-top: 32px;
 }
 
 .description .description__price .description__text-price {
   color: #666666;
   font-size: 14px;
   text-transform: uppercase;
-  padding-right: 8px;
+  padding-right: 3px;
 }
 
 .description .description__price .description__number-price {
@@ -3775,12 +3991,12 @@ body {
 }
 
 .video-wrapper {
-  padding-top: 78px;
+  padding-top: 82px;
   max-width: 860px;
 }
 
 .characteristics {
-  padding-top: 70px;
+  padding-top: 47px;
   font-family: "Arial", sans-serif;
 }
 
@@ -3792,8 +4008,8 @@ body {
 .characteristics__item {
   list-style: none;
   cursor: pointer;
-  padding-bottom: 10px;
-  padding-right: 28px;
+  padding-bottom: 6px;
+  padding-right: 26px;
   border-bottom: 1px solid transparent;
   display: inline-block;
   margin-bottom: -1px;
@@ -3839,15 +4055,15 @@ body {
 }
 
 .product__text {
-  padding-top: 40px;
+  padding-top: 34px;
   font-size: 15px;
   line-height: 24px;
   color: #333333;
-  max-width: 870px;
+  max-width: 874px;
 }
 
 .table-wrapper {
-  padding-top: 24px;
+  padding-top: 16px;
 }
 
 .table {
@@ -3863,9 +4079,25 @@ body {
 }
 
 .table .table__row .table__line-name, .table .table__row .table__line-model {
-  padding: 13px 0 13px 18px;
+  padding: 10px 0 10px 18px;
+}
+
+.table .table__row .table__line-name {
+  width: 586px;
 }
 
 .table .table__row .table__line-model {
   font-weight: 700;
+}
+
+.wrapper-slider {
+  position: relative;
+}
+
+div.pgwSlider .ps-current {
+  width: 79%;
+}
+
+div.pgwSlider ul {
+  width: 20%;
 }

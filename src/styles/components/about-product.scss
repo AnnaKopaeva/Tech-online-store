@@ -5,13 +5,14 @@
   margin: auto;
   padding: 0 15px;
   padding-top: 50px;
-  padding-bottom: 105px;
+  padding-bottom: 100px;
 }
 
 .about-product {
   padding-top: 40px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 21px;
 }
 
 .breadcrumbs {
@@ -48,7 +49,7 @@
 .title-product {
   font-family: $Roboto;
   font-weight: 900;
-  padding-top: 25px;
+  padding-top: 16px;
   font-size: 36px;
 }
 
@@ -63,14 +64,15 @@
     font-size: 14px;
     line-height: 21px;
     color: $dark-grey;
+    margin-top: -6px;
   }
   .description__price {
-    margin-top: 46px;
+    margin-top: 32px;
     .description__text-price {
       color: $dark-granit;
       font-size: 14px;
       text-transform: uppercase;
-      padding-right: 8px;
+      padding-right: 3px;
     }
     .description__number-price {
       font-size: 36px;
@@ -82,6 +84,6 @@
 }
 
 .video-wrapper {
-  padding-top: 78px;
+  padding-top: 82px;
   max-width: 860px;
 }

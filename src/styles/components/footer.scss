@@ -25,6 +25,8 @@
 }
 .phone {
   color: $dark-grey;
+  margin-top: -3px;
+  margin-left: -47px;
   .phone__text {
     font-size: 12px;
     text-align: center;
@@ -37,6 +39,7 @@
   }
 }
 .company {
+  margin-top: 3px;
   .company__text {
     font-size: 13px;
     line-height: 20px;
