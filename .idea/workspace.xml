@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/data/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/media/.gitkeep" afterPath="" />
+    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="Added script">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/components/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/.htaccess" afterPath="$PROJECT_DIR$/build/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/product.html" afterPath="$PROJECT_DIR$/build/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.js" afterPath="$PROJECT_DIR$/build/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.min.js" afterPath="$PROJECT_DIR$/build/scripts/main.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.css" afterPath="$PROJECT_DIR$/build/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.min.css" afterPath="$PROJECT_DIR$/build/styles/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/main.js" afterPath="$PROJECT_DIR$/src/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/about-product.scss" afterPath="$PROJECT_DIR$/src/styles/components/about-product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/characteristics.scss" afterPath="$PROJECT_DIR$/src/styles/components/characteristics.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/slider.scss" afterPath="$PROJECT_DIR$/src/styles/components/slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/themes/_colors.scss" afterPath="$PROJECT_DIR$/src/styles/themes/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/includes/scripts.pug" afterPath="$PROJECT_DIR$/src/views/includes/scripts.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/about-product.pug" afterPath="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/characteristics.pug" afterPath="$PROJECT_DIR$/src/views/mixins/characteristics.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -309,7 +294,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="64369000" />
+      <workItem from="1505034336835" duration="64449000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -374,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505146568948</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added script">
+      <created>1505161955227</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1505161955227</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105343000" />
+    <option name="totallyTimeSpent" value="105423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -422,7 +414,8 @@
     <MESSAGE value="Changed page product" />
     <MESSAGE value="Added slider" />
     <MESSAGE value="Changed view slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed view slider" />
+    <MESSAGE value="Added script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
