@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="Changed slider element part-2">
+    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.js" afterPath="$PROJECT_DIR$/build/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.min.js" afterPath="$PROJECT_DIR$/build/scripts/main.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vendors/bundle.js" afterPath="$PROJECT_DIR$/build/vendors/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vendors/bundle.min.js" afterPath="$PROJECT_DIR$/build/vendors/bundle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vendors/bundle.js" afterPath="$PROJECT_DIR$/src/vendors/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vendors/bundle.min.js" afterPath="$PROJECT_DIR$/src/vendors/bundle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,14 +91,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ninja-slider.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ninja-slider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="-16">
+              <caret line="22" column="1055" lean-forward="false" selection-start-line="22" selection-start-column="1055" selection-end-line="22" selection-end-column="1055" />
               <folding>
-                <marker date="1505163492622" expanded="true" signature="13581:13588" ph="..." />
+                <marker date="1505165723117" expanded="true" signature="13565:13572" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thumbnail-slider.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="25" column="11474" lean-forward="true" selection-start-line="25" selection-start-column="11474" selection-end-line="25" selection-end-column="11474" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ninja-slider.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/ninja-slider.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4216">
+              <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,6 +135,10 @@
       <find>main.css</find>
       <find>wrapper-description-product</find>
       <find>jqi</find>
+      <find>append</find>
+      <find>trial version</find>
+      <find>.after(</find>
+      <find>.join(&quot;&quot;)</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Develop\online-tech-store</dir>
@@ -163,8 +184,6 @@
         <option value="$PROJECT_DIR$/src/views/includes/scripts.pug" />
         <option value="$PROJECT_DIR$/src/styles/components/characteristics.scss" />
         <option value="$PROJECT_DIR$/build/vendors/bundle.js" />
-        <option value="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
-        <option value="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
         <option value="$PROJECT_DIR$/src/scripts/main.js" />
         <option value="$PROJECT_DIR$/src/styles/components/thumbnail-slider.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/ninja-slider.scss" />
@@ -174,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/vendors/bundle.min.js" />
         <option value="$PROJECT_DIR$/src/vendors/bundle.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/slider.js" />
+        <option value="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
+        <option value="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
       </list>
     </option>
   </component>
@@ -434,7 +455,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="67186000" />
+      <workItem from="1505034336835" duration="68074000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -527,11 +548,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505164532478</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Changed slider element part-2">
+      <created>1505164906226</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1505164906226</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108160000" />
+    <option name="totallyTimeSpent" value="109048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -580,7 +608,8 @@
     <MESSAGE value="Added script to production" />
     <MESSAGE value="Added script to bundle" />
     <MESSAGE value="Changed slider element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed slider element" />
+    <MESSAGE value="Changed slider element part-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed slider element part-2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -885,22 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/ninja-slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2118">
-          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/thumbnail-slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -983,6 +996,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/ninja-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4216">
+          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -993,11 +1014,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="-16">
+          <caret line="22" column="1055" lean-forward="false" selection-start-line="22" selection-start-column="1055" selection-end-line="22" selection-end-column="1055" />
           <folding>
-            <marker date="1505163492622" expanded="true" signature="13581:13588" ph="..." />
+            <marker date="1505165723117" expanded="true" signature="13565:13572" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="25" column="11474" lean-forward="true" selection-start-line="25" selection-start-column="11474" selection-end-line="25" selection-end-column="11474" />
+          <folding />
         </state>
       </provider>
     </entry>
