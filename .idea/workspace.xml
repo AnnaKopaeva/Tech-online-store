@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="Changed slider element part-4">
+    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
@@ -92,10 +92,10 @@
       <file leaf-file-name="ninja-slider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
-              <caret line="22" column="3299" lean-forward="false" selection-start-line="22" selection-start-column="3299" selection-end-line="22" selection-end-column="3299" />
+            <state relative-caret-position="-1940">
+              <caret line="22" column="16875" lean-forward="false" selection-start-line="22" selection-start-column="16875" selection-end-line="22" selection-end-column="16875" />
               <folding>
-                <marker date="1505167524644" expanded="true" signature="13559:13566" ph="..." />
+                <marker date="1505167921177" expanded="true" signature="13581:13588" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,8 +104,8 @@
       <file leaf-file-name="thumbnail-slider.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="25" column="1646" lean-forward="false" selection-start-line="25" selection-start-column="1646" selection-end-line="25" selection-end-column="1646" />
+            <state relative-caret-position="262">
+              <caret line="25" column="13718" lean-forward="false" selection-start-line="25" selection-start-column="13718" selection-end-line="25" selection-end-column="13718" />
               <folding />
             </state>
           </provider>
@@ -397,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gulp.js.gulp server">
+  <component name="RunManager" selected="Gulp.js.gulp build">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -457,7 +457,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="69745000" />
+      <workItem from="1505034336835" duration="70003000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -571,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505166585240</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed slider element part-4">
+      <created>1505167725558</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1505167725558</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110719000" />
+    <option name="totallyTimeSpent" value="110977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1032,18 +1039,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="22" column="3299" lean-forward="false" selection-start-line="22" selection-start-column="3299" selection-end-line="22" selection-end-column="3299" />
+        <state relative-caret-position="-1940">
+          <caret line="22" column="16875" lean-forward="false" selection-start-line="22" selection-start-column="16875" selection-end-line="22" selection-end-column="16875" />
           <folding>
-            <marker date="1505167524644" expanded="true" signature="13559:13566" ph="..." />
+            <marker date="1505167921177" expanded="true" signature="13581:13588" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="1646" lean-forward="false" selection-start-line="25" selection-start-column="1646" selection-end-line="25" selection-end-column="1646" />
+        <state relative-caret-position="262">
+          <caret line="25" column="13718" lean-forward="false" selection-start-line="25" selection-start-column="13718" selection-end-line="25" selection-end-column="13718" />
           <folding />
         </state>
       </provider>
