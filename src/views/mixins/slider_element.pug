@@ -1,0 +1,20 @@
+mixin slider-element
+  -
+    var sliderImg = ["Layer1", "Layer3", "Layer4", "Layer5"];
+  div(id="demowrap")
+    div(style="width:1000px;margin:0px auto;")
+      div(id="ninja-slider" style="float:left;")
+        div(class="slider-inner")
+          ul
+            each item in sliderImg
+              li
+                a(class="ns-img" href=`./images/slider/${item}.png`)
+
+          div(class="fs-icon" title="Expand/Close")
+
+      div(id="thumbnail-slider")
+        div(class="inner")
+          ul
+            each item in sliderImg
+              li
+                a(class="thumb" href=`./images/slider/${item}.png`)
