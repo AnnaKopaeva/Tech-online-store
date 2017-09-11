@@ -1,14 +1,29 @@
 include ./slider
+include ./breadcrumbs
+include ./description
+include ./characteristics
+include ./table
 
 mixin about-product
-  -
-    var breadCrumbsItem = ["Оборудование", "Шнекоротор", "Шнекоротор"];
 
   .wrapper-about
-    ul.breadcrumbs
-      li.breadcrumbs__item
-        i(class="fa fa-home" aria-hidden="true")
-      each item in breadCrumbsItem
-        li= item
+    +breadCrumbs
+    h2.title-product Шнекоротор
+    .about-product
+      .wrapper-slider
+        +slider
+      .description
+        +description-element
+    .characteristics
+      +characteristics-element
+      p.product__text Автоцистерна АТЗ-46681F-17 предназначена для
+        | транспортировки, временного хранения и дозированной
+        | заправки светлых нефтепродуктов плотностью не более
+        | 860 кг/м3.
+    .table-wrapper
+      +table-element
+    .video-wrapper
+      iframe(type='text/html' width='860' height='510'
+        src='https://www.youtube.com/embed/5kGFefOe9to'
+        frameborder='0' allowfullscreen)
 
-    +slider
