@@ -1,0 +1,36 @@
+mixin table-element
+
+  -
+    var tableItems = [
+      {
+        name: "Базовое шасси",
+        model: "Ford Cargo 2532 HRS"
+      }, {
+        name: "Колесная формула",
+        model: "6х2"
+      }, {
+        name: "Двигатель",
+        model: "Ford Ecotorq, объём 9,0 л, 320 л.с."
+      }, {
+        name: "КПП",
+        model: "ZF 9S1110, механическая, 9-ступенчатая"
+      },{
+        name: "Кабина",
+        model: "Высокая, с двумя спальными местами"
+      }, {
+        name: "Габаритные размеры, мм.",
+        model: "9.295 х 2.500 х 3.250"
+      }, {
+        name: "Передняя подвеска",
+        model: "Рессорная"
+      }, {
+        name: "Задняя подвеска",
+        model: "Рессорная"
+      }
+    ]
+
+  table.table
+    each item in tableItems
+      tr.table__row
+        td.table__line-name= item.name
+        td.table__line-model= item.model

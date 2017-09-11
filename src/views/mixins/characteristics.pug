@@ -1,0 +1,21 @@
+mixin characteristics-element
+  -
+    var characteristicsList = [
+      {
+        name: "Характеристики",
+        imgSrc: "gears"
+      }, {
+        name: "Описание",
+        imgSrc: "descr"
+      }
+    ]
+  ul.characteristics__list
+    each item in characteristicsList
+      li.characteristics__item
+        img(src=`./images/characteristics/${item.imgSrc}.black.png`
+          alt="characteristics"
+          class="characteristics__img-black")
+        img(src=`./images/characteristics/${item.imgSrc}.png`
+          alt="characteristics"
+          class="characteristics__img")
+        span.characteristics__name= item.name

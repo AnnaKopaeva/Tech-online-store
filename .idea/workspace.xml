@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="Added page product">
+    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/characteristics/descr.black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/characteristics/descr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/characteristics/gears.black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/images/characteristics/gears.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/characteristics/descr.black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/characteristics/descr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/characteristics/gears.black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/characteristics/gears.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/characteristics.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/table.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/mixins/breadcrumbs.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/mixins/characteristics.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/mixins/description.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/mixins/table.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/.htaccess" afterPath="$PROJECT_DIR$/build/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/product.html" afterPath="$PROJECT_DIR$/build/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.css" afterPath="$PROJECT_DIR$/build/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.min.css" afterPath="$PROJECT_DIR$/build/styles/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_sample.scss" afterPath="$PROJECT_DIR$/src/styles/components/_sample.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/about-product.scss" afterPath="$PROJECT_DIR$/src/styles/components/about-product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/header.scss" afterPath="$PROJECT_DIR$/src/styles/components/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/themes/_colors.scss" afterPath="$PROJECT_DIR$/src/styles/themes/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/about-product.pug" afterPath="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +36,7 @@
           <file leaf-file-name="about-product.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/views/mixins/about-product.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
+                <state relative-caret-position="426">
                   <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
                   <folding />
                 </state>
@@ -463,7 +467,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="43606000" />
+      <workItem from="1505034336835" duration="43763000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -500,24 +504,30 @@
       <option name="project" value="LOCAL" />
       <updated>1505068645930</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added page product">
+      <created>1505130110521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505130110521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84580000" />
+    <option name="totallyTimeSpent" value="84737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5029762" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24757281" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24757281" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49702382" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.49702382" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313988" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -545,7 +555,8 @@
     <MESSAGE value="Added build files" />
     <MESSAGE value="Added item bread crumbs" />
     <MESSAGE value="Changed links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed links" />
+    <MESSAGE value="Added page product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added page product" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -941,7 +952,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/mixins/about-product.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
+        <state relative-caret-position="426">
           <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>

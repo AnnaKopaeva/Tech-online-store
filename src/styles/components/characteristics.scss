@@ -1,0 +1,58 @@
+@import '../themes/colors';
+
+.characteristics {
+  padding-top: 70px;
+  font-family: $Arial;
+}
+
+.characteristics__list {
+  width: 100%;
+  border-bottom: 1px solid $footer-color;
+}
+
+.characteristics__item {
+  list-style: none;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  margin-bottom: -1px;
+  transition: border-bottom 0.5s;
+  vertical-align: bottom;
+  &:hover {
+    border-bottom: 1px solid $light-orange;
+    .characteristics__name {
+      color: $black;
+    }
+    .characteristics__img {
+      display: none;
+    }
+    .characteristics__img-black {
+      display: inline-block;
+    }
+  }
+  &:last-child {
+    padding-right: 0px;
+  }
+  .characteristics__img-black {
+    display: none;
+  }
+  .characteristics__img, .characteristics__img-black {
+    padding-right: 8px;
+  }
+  .characteristics__name {
+    font-size: 15px;
+    color: $dark-granit;
+    transition: color 0.5s;
+    font-weight: 700;
+  }
+}
+
+.product__text {
+  padding-top: 40px;
+  font-size: 15px;
+  line-height: 24px;
+  color: $dark-font-color;
+  max-width: 870px;
+}
