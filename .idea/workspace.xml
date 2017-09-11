@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/scripts/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/scripts/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,8 +104,8 @@
       <file leaf-file-name="thumbnail-slider.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="25" column="13718" lean-forward="false" selection-start-line="25" selection-start-column="13718" selection-end-line="25" selection-end-column="13718" />
+            <state relative-caret-position="194">
+              <caret line="25" column="13090" lean-forward="true" selection-start-line="25" selection-start-column="13090" selection-end-line="25" selection-end-column="13090" />
               <folding />
             </state>
           </provider>
@@ -457,7 +457,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="70003000" />
+      <workItem from="1505034336835" duration="70231000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -578,11 +578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505167725558</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changed slider element part-5">
+      <created>1505168050861</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1505168050861</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110977000" />
+    <option name="totallyTimeSpent" value="111205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -634,7 +641,8 @@
     <MESSAGE value="Changed slider element part-2" />
     <MESSAGE value="Changed slider element part-3" />
     <MESSAGE value="Changed slider element part-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed slider element part-4" />
+    <MESSAGE value="Changed slider element part-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed slider element part-5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1049,8 +1057,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="25" column="13718" lean-forward="false" selection-start-line="25" selection-start-column="13718" selection-end-line="25" selection-end-column="13718" />
+        <state relative-caret-position="194">
+          <caret line="25" column="13090" lean-forward="true" selection-start-line="25" selection-start-column="13090" selection-end-line="25" selection-end-column="13090" />
           <folding />
         </state>
       </provider>
