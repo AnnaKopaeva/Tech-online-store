@@ -1,0 +1,40 @@
+.wrapper-slider {
+  position: relative;
+}
+
+div.pgwSlider {
+  .ps-current {
+    width: 79%;
+  }
+  ul {
+    width: 20%;
+  }
+}
+
+.pgwSlider{
+  position: relative;
+  .ps-current {
+    overflow: visible;
+    .ps-prev {
+      position: absolute;
+      top: 0;
+      right: -127px;
+      width: 121px;
+      left: auto;
+      z-index: 5;
+      display: flex;
+      justify-content: center;
+    }
+    .ps-next {
+      position: absolute;
+      bottom: 0;
+      right: -127px;
+      width: 121px;
+      top: auto;
+      z-index: 5;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
