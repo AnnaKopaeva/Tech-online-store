@@ -3938,7 +3938,7 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
   height: 0;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -1px;
   border-top: 50px solid #f3f3f3;
   border-right: 12px solid transparent;
 }
@@ -3948,7 +3948,7 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
   height: 0;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -1px;
   border-bottom: 50px solid #f3f3f3;
   border-left: 6px solid transparent;
 }
