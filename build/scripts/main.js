@@ -93,7 +93,7 @@ function NinjaSlider(a) {
   },
       Ab = ["$1$2$3", "$1$2$3", "$1$24", "$1$23", "$1$22"],
       Yb = function Yb(a) {
-    return a.replace(/(?:.*\.)?(\w)([\w\-])?[^.]*(\w)\.[^.]*$/, "$1$3$2");
+    return null;
   },
       zb = [/(?:.*\.)?(\w)([\w\-])[^.]*(\w)\.[^.]+$/, /.*([\w\-])\.(\w)(\w)\.[^.]+$/, /^(?:.*\.)?(\w)(\w)\.[^.]+$/, /.*([\w\-])([\w\-])\.com\.[^.]+$/, /^(\w)[^.]*(\w)$/],
       m = setTimeout,
@@ -590,7 +590,7 @@ function ThumbnailSlider(a) {
     }return b.join("") == "Ninja Slider trial version" ? "" : b.join('');
   },
       Vb = function Vb(a) {
-    return a.replace(/(?:.*\.)?(\w)([\w\-])?[^.]*(\w)\.[^.]*$/, "$1$3$2");
+    return null;
   },
       wb = [/(?:.*\.)?(\w)([\w\-])[^.]*(\w)\.[^.]+$/, /.*([\w\-])\.(\w)(\w)\.[^.]+$/, /^(?:.*\.)?(\w)(\w)\.[^.]+$/, /.*([\w\-])([\w\-])\.com\.[^.]+$/, /^(\w)[^.]*(\w)$/],
       p = window.setTimeout,
