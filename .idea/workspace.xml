@@ -10,8 +10,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/styles/main.min.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/styles/components/slider.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/characteristics.scss" afterPath="$PROJECT_DIR$/src/styles/components/characteristics.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/main.js" afterPath="$PROJECT_DIR$/src/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_sample.scss" afterPath="$PROJECT_DIR$/src/styles/components/_sample.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/ninja-slider.scss" afterPath="$PROJECT_DIR$/src/styles/components/ninja-slider.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,18 +53,8 @@
       <file leaf-file-name="ninja-slider.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/components/ninja-slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="characteristics.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/components/characteristics.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -131,9 +124,7 @@
         <option value="$PROJECT_DIR$/src/views/includes/head.pug" />
         <option value="$PROJECT_DIR$/src/views/includes/scripts.pug" />
         <option value="$PROJECT_DIR$/build/vendors/bundle.js" />
-        <option value="$PROJECT_DIR$/src/scripts/main.js" />
         <option value="$PROJECT_DIR$/src/styles/components/thumbnail-slider.scss" />
-        <option value="$PROJECT_DIR$/src/styles/components/_sample.scss" />
         <option value="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
         <option value="$PROJECT_DIR$/src/views/mixins/slider_element.pug" />
         <option value="$PROJECT_DIR$/src/vendors/bundle.min.js" />
@@ -143,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
         <option value="$PROJECT_DIR$/src/styles/components/characteristics.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/ninja-slider.scss" />
+        <option value="$PROJECT_DIR$/src/scripts/main.js" />
+        <option value="$PROJECT_DIR$/src/styles/components/_sample.scss" />
       </list>
     </option>
   </component>
@@ -245,6 +238,12 @@
               <item name="online-tech-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-tech-store" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-tech-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-tech-store" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="online-tech-store" type="b2602c69:ProjectViewProjectNode" />
@@ -414,7 +413,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="78198000" />
+      <workItem from="1505034336835" duration="79255000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -570,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505193180029</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Changed slider element to the full screen">
+      <created>1505202903029</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1505202903029</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119172000" />
+    <option name="totallyTimeSpent" value="120229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -589,7 +595,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.49702382" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313988" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -629,7 +635,8 @@
     <MESSAGE value="Changed slider element part-6" />
     <MESSAGE value="Changed slider element part-7" />
     <MESSAGE value="Changed slider element part-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed slider element part-8" />
+    <MESSAGE value="Changed slider element to the full screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed slider element to the full screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -838,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/components/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/mixins/characteristics.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -878,14 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -910,16 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/vendors/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2414">
@@ -932,14 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10035" column="0" lean-forward="true" selection-start-line="10035" selection-start-column="0" selection-end-line="10035" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/_sample.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -967,14 +940,6 @@
           <folding>
             <marker date="1505192765027" expanded="true" signature="13633:13640" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/components/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,6 +999,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/components/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/components/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_sample.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/characteristics.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1044,8 +1051,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/ninja-slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
           <folding />
         </state>
       </provider>

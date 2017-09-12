@@ -4094,92 +4094,6 @@ body {
   font-weight: 700;
 }
 
-.wrapper-slider {
-  position: relative;
-}
-
-div.pgwSlider .ps-current {
-  width: 79%;
-}
-
-div.pgwSlider ul {
-  width: 20%;
-}
-
-.pgwSlider {
-  position: relative;
-}
-
-.pgwSlider .ps-current {
-  overflow: visible;
-}
-
-.pgwSlider .ps-current .ps-prev {
-  position: absolute;
-  top: 0;
-  right: -127px;
-  width: 121px;
-  left: auto;
-  z-index: 5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0px;
-  background: #282828;
-  border: none;
-  border-radius: 0;
-}
-
-.pgwSlider .ps-current .ps-prev:before {
-  content: "\f106";
-  color: white;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  font-size: 23px;
-}
-
-.pgwSlider .ps-current .ps-prev .ps-prevIcon {
-  display: none;
-}
-
-.pgwSlider .ps-current .ps-next {
-  position: absolute;
-  bottom: 0;
-  right: -127px;
-  width: 121px;
-  top: auto;
-  z-index: 5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0px;
-  background: #282828;
-  border: none;
-  border-radius: 0;
-}
-
-.pgwSlider .ps-current .ps-next:before {
-  content: "\f107";
-  color: white;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  font-size: 23px;
-}
-
-.pgwSlider .ps-current .ps-next .ps-nextIcon {
-  display: none;
-}
-
 /* Visit http://www.menucool.com/responsive-slider for instructions */
 #ninja-slider {
   width: 470px;
@@ -4232,12 +4146,14 @@ div.pgwSlider ul {
 }
 
 #ninja-slider div.fs-icon::before {
-  content: "";
+  content: "\f00e";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
   display: block;
-  width: 20px;
-  height: 20px;
-  background: url(../images/zoom.png);
-  margin-top: 2px;
+  font-size: 19px;
+  margin-top: 3px;
   margin-left: 7px;
 }
 
@@ -4255,6 +4171,7 @@ div.pgwSlider ul {
   font-weight: normal;
   text-decoration: inherit;
   background: none;
+  font-size: 11px;
   margin-top: 0px;
   margin-left: 0px;
   width: 8px;

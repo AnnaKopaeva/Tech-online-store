@@ -44,12 +44,14 @@
 }
 
 #ninja-slider div.fs-icon::before {
-  content: "";
+  content: "\f00e";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
   display:block;
-  width: 20px;
-  height: 20px;
-  background: url(../images/zoom.png);
-  margin-top: 2px;
+  font-size: 19px;
+  margin-top: 3px;
   margin-left: 7px;
 }
 #ninja-slider.fullscreen div.fs-icon {
@@ -66,6 +68,7 @@
   font-weight: normal;
   text-decoration: inherit;
   background: none;
+  font-size: 11px;
   margin-top: 0px;
   margin-left: 0px;
   width: 8px;
