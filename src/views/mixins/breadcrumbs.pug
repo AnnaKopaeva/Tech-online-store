@@ -5,9 +5,10 @@ mixin breadCrumbs
 
   ul.breadcrumbs
     li.breadcrumbs__item
-      i(class="fa fa-home" aria-hidden="true")
+      a(href="#")
+        i(class="fa fa-home" aria-hidden="true")
       i(class="fa fa-angle-right" aria-hidden="true")
     each item in breadCrumbsItem
       li.breadcrumbs__item
-        span.breadcrumbs__text= item
+        a(href="#").breadcrumbs__text= item
         i(class="fa fa-angle-right" aria-hidden="true")

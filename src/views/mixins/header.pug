@@ -4,11 +4,12 @@ mixin header
       .header__logo
         a
           img(src='./images/logo.png' class='header__img' alt="AvtoBau")
-      ul.header__nav
-        li
-          a(href="#") ЗНАКОМЬТЕСЬ: MUVO
-        li
-          span ОБОРУДОВАНИЕ
+      nav
+        ul.header__nav
+          li
+            a(href="#") ЗНАКОМЬТЕСЬ: MUVO
+          li
+            a(href="#") ОБОРУДОВАНИЕ
             ul.header__nav-items
               -
                 var list = ["базовое шасси", "вакуумное подметально-уборочное приспособление",
@@ -17,12 +18,12 @@ mixin header
               each item in list
                 li
                   a(href="#")= item
-        li
-          a(href="#") ГАЛЕРЕЯ
-        li
-          a(href="#") КАЧЕСТВО
-        li
-          a(href="#") НОВОСТИ
+          li
+            a(href="#") ГАЛЕРЕЯ
+          li
+            a(href="#") КАЧЕСТВО
+          li
+            a(href="#") НОВОСТИ
       div(id="menu")
         div(class="line-wrapp")
           div(class="line top")

@@ -39,11 +39,21 @@
       .breadcrumbs__text {
         color: $dark-granit;
       }
+      &:last-child {
+        text-decoration: none;
+        a {
+          cursor: default;
+        }
+        .breadcrumbs__text {
+          color: $light-granit;
+        }
+      }
     }
     .breadcrumbs__text {
       color: $light-granit;
     }
     .fa-angle-right {
+      cursor: default;
       color: $light-granit;
       padding: 0 4px;
     }

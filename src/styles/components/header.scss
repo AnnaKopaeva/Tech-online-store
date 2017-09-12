@@ -48,11 +48,6 @@
       border-bottom: 2px solid transparent;
       transition: border-bottom 0.5s;
     }
-    span {
-      padding-bottom: 10px;
-      border-bottom: 2px solid transparent;
-      transition: border-bottom 0.5s;
-    }
     &:hover {
       background: repeating-linear-gradient(
           -45deg,
@@ -77,6 +72,7 @@
   top: 80px;
   left: 0;
   padding: 14px 60px 15px 18px;
+  cursor: default;
   background: repeating-linear-gradient(
       -45deg,
       $gradient-row,
@@ -87,10 +83,11 @@
   li {
     font-size: 12px;
     padding: 10px 0;
-    cursor: pointer;
+    cursor: default;
     display: block;
     white-space: nowrap;
     text-transform: uppercase;
+    min-width: 200px;
     &:hover {
       a {
         border-bottom: none;
