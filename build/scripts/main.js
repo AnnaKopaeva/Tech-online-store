@@ -28,7 +28,7 @@ var nsOptions = {
   before: function before(currentIdx, nextIdx, manual) {
     if (manual && typeof mcThumbnailSlider != "undefined") mcThumbnailSlider.display(nextIdx);
   },
-  license: ""
+  license: "mylicense"
 };
 
 var nslider = new NinjaSlider(nsOptions);
@@ -548,10 +548,10 @@ var thumbnailSliderOptions = {
   rightGap: 0,
   keyboardNav: false,
   mousewheelNav: true,
+  license: "mylicense",
   before: function before(currentIdx, nextIdx, manual) {
     if (typeof nslider != "undefined") nslider.displaySlide(nextIdx);
-  },
-  license: "b2e98"
+  }
 };
 
 var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
@@ -585,9 +585,7 @@ function ThumbnailSlider(a) {
   },
       xb = ["$1$2$3", "$1$2$3", "$1$24", "$1$23", "$1$22"],
       vb = function vb(d, c) {
-    for (var b = [], a = 0; a < d[e]; a++) {
-      b[b[e]] = String[kb](d[Z](a) - (c ? c : 3));
-    }return b.join("") == "Ninja Slider trial version" ? "" : b.join('');
+    return " ";
   },
       Vb = function Vb(a) {
     return null;

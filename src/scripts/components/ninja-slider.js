@@ -14,7 +14,7 @@ var nsOptions =
     pauseOnHover: false,
     keyboardNav: true,
     before: function (currentIdx, nextIdx, manual) { if(manual && typeof mcThumbnailSlider!="undefined") mcThumbnailSlider.display(nextIdx);},
-    license: ""
+    license: "mylicense",
   };
 
 var nslider = new NinjaSlider(nsOptions);
