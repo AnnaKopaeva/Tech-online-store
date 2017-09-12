@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/scripts/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/scripts/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.js" afterPath="$PROJECT_DIR$/build/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/main.min.js" afterPath="$PROJECT_DIR$/build/scripts/main.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/ninja-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,16 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_sample.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/components/_sample.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slider_element.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/mixins/slider_element.pug">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,10 +84,10 @@
       <file leaf-file-name="ninja-slider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1940">
-              <caret line="22" column="16875" lean-forward="false" selection-start-line="22" selection-start-column="16875" selection-end-line="22" selection-end-column="16875" />
+            <state relative-caret-position="-1123">
+              <caret line="22" column="9288" lean-forward="false" selection-start-line="22" selection-start-column="9228" selection-end-line="22" selection-end-column="9288" />
               <folding>
-                <marker date="1505167921177" expanded="true" signature="13581:13588" ph="..." />
+                <marker date="1505191159218" expanded="true" signature="13679:13686" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,8 +96,8 @@
       <file leaf-file-name="thumbnail-slider.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="25" column="13090" lean-forward="true" selection-start-line="25" selection-start-column="13090" selection-end-line="25" selection-end-column="13090" />
+            <state relative-caret-position="317">
+              <caret line="25" column="2127" lean-forward="false" selection-start-line="25" selection-start-column="2127" selection-end-line="25" selection-end-column="2127" />
               <folding />
             </state>
           </provider>
@@ -298,6 +290,11 @@
             <path>
               <item name="online-tech-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-tech-store" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-tech-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-tech-store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gulp.js.gulp build">
+  <component name="RunManager" selected="Gulp.js.gulp server">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -457,7 +454,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="70231000" />
+      <workItem from="1505034336835" duration="71587000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -585,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505168050861</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changed slider element part-5">
+      <created>1505168238152</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1505168238152</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111205000" />
+    <option name="totallyTimeSpent" value="112561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -923,14 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/scripts/main.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1037,6 +1033,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/scripts/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2975">
+          <caret line="0" column="740" lean-forward="true" selection-start-line="0" selection-start-column="740" selection-end-line="0" selection-end-column="740" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1047,18 +1051,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/ninja-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1940">
-          <caret line="22" column="16875" lean-forward="false" selection-start-line="22" selection-start-column="16875" selection-end-line="22" selection-end-column="16875" />
+        <state relative-caret-position="-1123">
+          <caret line="22" column="9288" lean-forward="false" selection-start-line="22" selection-start-column="9228" selection-end-line="22" selection-end-column="9288" />
           <folding>
-            <marker date="1505167921177" expanded="true" signature="13581:13588" ph="..." />
+            <marker date="1505191159218" expanded="true" signature="13679:13686" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/thumbnail-slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="25" column="13090" lean-forward="true" selection-start-line="25" selection-start-column="13090" selection-end-line="25" selection-end-column="13090" />
+        <state relative-caret-position="317">
+          <caret line="25" column="2127" lean-forward="false" selection-start-line="25" selection-start-column="2127" selection-end-line="25" selection-end-column="2127" />
           <folding />
         </state>
       </provider>
