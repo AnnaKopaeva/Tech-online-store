@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -23,7 +24,9 @@
 
 .header__nav {
   font-family: $Roboto;
-  display: inline-block;
+  display: inline-flex;
+  align-items: stretch;
+  height: 100%;
   li {
     font-size: 14px;
     color: $light;
@@ -71,7 +74,7 @@
 .header__nav-items {
   display: none;
   position: absolute;
-  top: $header_height;
+  top: 80px;
   left: 0;
   padding: 14px 60px 15px 18px;
   background: repeating-linear-gradient(
@@ -101,5 +104,104 @@
         border-bottom: none;
       }
     }
+  }
+}
+
+.line-wrapp {
+  width: 18px;
+  height: 12px;
+  margin: 0 20px;
+  transition: all 600ms ease-in-out;
+  .line{
+    width: 18px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 600ms ease-in-out;
+  }
+  .line.center{
+    margin: 3px 0;
+  }
+}
+.active-menu.line-wrapp{
+  transform: rotate(180deg);
+}
+
+.active-menu {
+  .line.top {
+    width: 12px;
+    transform: translateX(-1px) translateY(1px) rotate(-45deg);
+  }
+  .line.bottom {
+    width: 12px;
+    transform: translateX(-1px) translateY(-1px) rotate(45deg);
+  }
+}
+
+@media (min-width: 300px) {
+  .header-wrapper {
+    .header {
+      position: relative;
+    }
+  }
+  .header__logo {
+    padding: 15px 0;
+  }
+  .header__nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: $dark;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    li {
+      display: block;
+    }
+  }
+  #menu {
+    display: block;
+  }
+}
+
+@media (min-width: 750px) {
+  .header-wrapper {
+    .header {
+      justify-content: center;
+      height: auto;
+    }
+  }
+  .header__logo {
+    margin: 0 62px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  .header__nav {
+    display: inline-block;
+    position: static;
+    background: transparent;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    li {
+      display: inline-block;
+    }
+  }
+  #menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header-wrapper {
+    .header {
+      justify-content: space-between;
+      height: $header_height;
+    }
+  }
+  .header__logo {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }

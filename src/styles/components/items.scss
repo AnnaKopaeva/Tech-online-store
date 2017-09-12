@@ -35,7 +35,7 @@
   }
 }
 
-.block1 {
+.left-block {
   padding-top: 2px;
   .block_item {
     position: relative;
@@ -53,7 +53,7 @@
     }
   }
 }
-.block2 {
+.right-block {
   .block_item {
     position: relative;
     .block_item__about {
@@ -73,7 +73,7 @@
     }
   }
 }
-.block3 {
+.bottom-block {
   .block_item {
     position: relative;
     &:nth-child(1) {
@@ -103,14 +103,14 @@
   }
 }
 
-.block1, .block2 {
+.left-block, .right-block {
   .block_item {
     margin-top: 40px;
     display: block;
   }
 }
 
-.block3 {
+.bottom-block {
   display: flex;
   justify-content: space-between;
   width: 100%;

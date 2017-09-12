@@ -10,3 +10,7 @@ listElement.click(function () {
   $(`#${id}`).show();
 });
 
+$(".line-wrapp").click(function() {
+  $(this).toggleClass("active-menu");
+  $('.header__nav').toggle();
+});

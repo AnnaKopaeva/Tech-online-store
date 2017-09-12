@@ -12,6 +12,11 @@ listElement.click(function () {
   $('#' + id).show();
 });
 
+$(".line-wrapp").click(function () {
+  $(this).toggleClass("active-menu");
+  $('.header__nav').toggle();
+});
+
 var nsOptions = {
   sliderId: "ninja-slider",
   transitionType: "fade", //"fade", "slide", "zoom", "kenburns 1.2" or "none"

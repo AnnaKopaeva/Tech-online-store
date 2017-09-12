@@ -52,32 +52,32 @@ mixin items-element
     ];
 
   .wrapper_blocks
-    ul.block1
+    ul.left-block
       each item in propItems1
         li.block_item
-          img(src=`./images/itemImg/${item.imgSrc}` class="block_item__img")
+          img(src=`./images/itemImg/${item.imgSrc}` alt="product" class="block_item__img")
           .block_item__about
             p(class="block_item__name")= item.name
             span(class="block_item__price")= item.price + " ₽"
-          img(src=`./images/line/${item.lineSrc}` class="block_item__line")
+          img(src=`./images/line/${item.lineSrc}` alt="line to product" class="block_item__line")
 
     +basis-element
 
-    ul.block2
+    ul.right-block
       each item in propItems2
         li.block_item
-          img(src=`./images/itemImg/${item.imgSrc}` class="block_item__img")
+          img(src=`./images/itemImg/${item.imgSrc}` alt="product" class="block_item__img")
           .block_item__about
             p(class="block_item__name")= item.name
             span(class="block_item__price")= item.price + " ₽"
-          img(src=`./images/line/${item.lineSrc}` class="block_item__line")
+          img(src=`./images/line/${item.lineSrc}` alt="line to product" class="block_item__line")
 
-  ul.block3
+  ul.bottom-block
     each item in propItems3
       li.block_item
-        img(src=`./images/itemImg/${item.imgSrc}` class="block_item__img")
+        img(src=`./images/itemImg/${item.imgSrc}` alt="product" class="block_item__img")
         .block_item__about
           p(class="block_item__name")= item.name
           span(class="block_item__price")= item.price + " ₽"
-        img(src=`./images/line/${item.lineSrc}` class="block_item__line")
+        img(src=`./images/line/${item.lineSrc}` alt="line to product" class="block_item__line")
 
