@@ -1,4 +1,4 @@
-mixin characteristics-element
+mixin tab-element
   -
     var characteristicsList = [
       {
@@ -13,13 +13,13 @@ mixin characteristics-element
         className: ""
       }
     ]
-  ul.characteristics__list
+  ul.tabs__nav
     each item in characteristicsList
-      li(class=`characteristics__item ${item.className}`, data-id=`${item.id}`)
+      li(class=`tabs__item ${item.className}`, data-id=`${item.id}`)
         img(src=`./images/characteristics/${item.imgSrc}.black.png`
-          alt="characteristics"
-          class="characteristics__img-black")
+          alt="tabs"
+          class="tabs__img-black")
         img(src=`./images/characteristics/${item.imgSrc}.png`
-          alt="characteristics"
-          class="characteristics__img")
-        span.characteristics__name= item.name
+          alt="tabs"
+          class="tabs__img")
+        span.tabs__name= item.name

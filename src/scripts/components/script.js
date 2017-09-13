@@ -1,4 +1,4 @@
-const listElement = $('.characteristics__item');
+const listElement = $('.tabs__item');
 
 listElement.click(function () {
   const id = $(this).attr('data-id');
@@ -6,7 +6,7 @@ listElement.click(function () {
   listElement.removeClass('active');
   $(this).addClass('active');
 
-  $('.wrapper-description-product').hide();
+  $('.tabs__content').hide();
   $(`#${id}`).show();
 });
 

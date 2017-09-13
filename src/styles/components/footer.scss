@@ -1,5 +1,5 @@
 
-.footer-wrapper {
+footer {
   background-color: $footer-color;
   .footer {
     margin: auto;
@@ -11,37 +11,30 @@
   }
 }
 
-.about {
-  .about__text {
+.copyright {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 1.5;
     color: $dark-grey;
     max-width: 270px;
     display: inline-block;
-  }
 }
 .phone {
   color: $dark-grey;
-  .phone__text {
-    display: block;
-    color: $dark-grey;
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 10px;
-    transition: color 0.5s;
-  }
-  .phone-number {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: color 0.5s;
+  .phone__link {
     color: $dark-grey;
     font-weight: 700;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1;
     opacity: 1;
     transition: opacity 0.5s;
-  }
-}
-.link-phone {
-  &:hover {
-    .phone-number {
+    display: block;
+    margin-top: 6px;
+    &:hover {
       opacity: 0.8;
     }
   }
@@ -49,70 +42,44 @@
 
 .company {
   margin-top: 3px;
-  .company__info {
+  .company__link {
     opacity: 1;
     transition: opacity 0.5s;
-  }
-  .company__text {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 1.5;
     color: $dark-grey;
-    display: inline-block;
     text-align: right;
-    max-width: 160px;
-  }
-  .company__img {
-    display: inline-block;
-    margin-left: 15px;
-  }
-  .link-company {
     &:hover {
-      .company__info {
-        opacity: 0.8;
-      }
+      opacity: 0.8;
+    }
+    span {
+      max-width: 160px;
+      display: inline-block;
+    }
+    .company__img {
+      margin-left: 15px;
     }
   }
 }
 
 
-@media (min-width: 300px) {
+@media (max-width: 900px) {
   .footer {
     flex-direction: column;
     text-align: center;
+    .copyright {
+      max-width: none;
+    }
     .phone {
       margin-left: 0;
       margin-top: 30px;
     }
     .company {
       margin-top: 30px;
-      .company__text {
+      .company__link {
         text-align: center;
       }
-      .company__img {
-        margin-left: 0;
-      }
     }
   }
 }
 
-@media (min-width: 900px) {
-  .footer {
-    flex-direction: row;
-    text-align: auto;
-    .phone {
-      margin-top: -3px;
-      margin-left: -47px;
-    }
-    .company {
-      margin-top: 3px;
-      .company__text {
-        text-align: auto;
-      }
-      .company__img {
-        margin-left: 15px;
-      }
-    }
-  }
-}
-
-@media (min-width: 300px) {}

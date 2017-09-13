@@ -1,17 +1,13 @@
 mixin footer
-  .footer-wrapper
-    .footer
-      .about
-        span.about__text © 2013‒2016, Производство и продажа
-          |  автофургонов различного назначения
-      .phone
-          span.phone__text Телефон в Москве
-          a(href="#" class="link-phone")
-            span.phone-number +7 (499) 506-94-71
+  footer
+    .footer.limit
+      .copyright.
+        © 2013‒2016, Производство и продажа автофургонов различного назначения
+      .phone Телефон в Москве
+          a(href="#" class="phone__link") +7 (499) 506-94-71
       .company
-        a(href="#" class="link-company")
-          .company__info
-            span.company__text Создание сайтов компания «ВладВеб»
-            img(src="./images/footer_img.png"
-              alt="company"
-              class="company__img")
+        a(href="#" class="company__link")
+          span Создание сайтов компания «ВладВеб»
+          img(src="./images/footer_img.png"
+            alt="company"
+            class="company__img")

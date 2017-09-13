@@ -1,9 +1,9 @@
 @import '../themes/colors';
 
 .wrapper-about {
-  max-width: $width_main_block;
   margin: auto;
-  padding: 50px 15px 100px 15px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .about-product {
@@ -13,7 +13,7 @@
   padding-bottom: 21px;
 }
 
-.wrapper-description-product {
+.tabs__content {
   display: none;
 }
 .active-block {
@@ -37,7 +37,6 @@
       color: $light-granit;
       &:hover {
         text-decoration: underline;
-        text-decoration-color: $dark-granit;
         color: $dark-granit;
         &:last-child {
           text-decoration: none;
@@ -55,15 +54,9 @@
   }
 }
 
-.title-product {
-  font-family: $Roboto;
-  font-weight: 900;
-  padding-top: 16px;
-  font-size: 36px;
-}
-
 .wrapper-slider {
-  width: 600px;
+  width: 610px;
+  padding-right: 20px;
 }
 #demowrap {
   width: 610px;
@@ -71,26 +64,23 @@
 
 .description {
   font-family: $Arial;
-  padding-left: 20px;
-  .description__text {
-    max-width: 530px;
-    font-size: 14px;
-    line-height: 21px;
-    color: $dark-grey;
-    margin-top: -6px;
-  }
-  .description__text.next {
-    margin-top: 20px;
+  max-width: 530px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $dark-grey;
+  margin-top: -6px;
+  p, span {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: none;
+    }
   }
   .description__price {
     margin-top: 32px;
-    .description__text-price {
-      color: $dark-granit;
-      font-size: 14px;
-      text-transform: uppercase;
-      padding-right: 3px;
-    }
-    .description__number-price {
+    color: $dark-granit;
+    font-size: 14px;
+    text-transform: uppercase;
+    .description__price-value {
       font-size: 36px;
       font-weight: 700;
       letter-spacing: 0.01em;
@@ -99,7 +89,7 @@
   }
 }
 
-.video-wrapper {
+.video {
   padding-top: 82px;
   margin: auto;
 }
@@ -120,14 +110,12 @@ iframe {
   .description {
     padding-top: 40px;
     margin: auto;
-    .description__text {
-      max-width: none;
-    }
+    max-width: none;
   }
 }
 
 @media (max-width: 900px) {
-  .video-wrapper {
+  .video {
     text-align: center;
   }
   iframe {
@@ -167,18 +155,6 @@ iframe {
   iframe {
     width: 360px;
     height: 240px;
-  }
-  .characteristics__list {
-    box-shadow: none;
-    .characteristics__item {
-      display: block;
-      width: 100%;
-      box-shadow: inset 0 -1px 0 #cccccc;
-      padding-top: 10px;
-    }
-    .characteristics__item.active {
-      box-shadow: none;
-    }
   }
 }
 

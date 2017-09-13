@@ -1,13 +1,11 @@
 @import '../themes/colors';
 
-.header-wrapper {
+header {
   background-color: $dark;
   position: fixed;
   z-index: 15;
   width: 100%;
   .header {
-    max-width: $width_main_block;
-    padding: 0 15px;
     height: $header_height;
     margin: auto;
     display: flex;
@@ -74,6 +72,7 @@
 .header__nav-items {
   display: none;
   position: absolute;
+  max-width: 500px;
   top: 80px;
   left: 0;
   padding: 14px 60px 15px 18px;
@@ -90,9 +89,8 @@
     padding: 10px 0;
     cursor: default;
     display: block;
-    white-space: nowrap;
     text-transform: uppercase;
-    min-width: 200px;
+    min-width: 360px;
     &:hover {
       a {
         border-bottom: none;
@@ -140,7 +138,7 @@
 }
 
 @media (max-width: 750px) {
-  .header-wrapper {
+  header {
     .header {
       position: relative;
     }
@@ -173,7 +171,8 @@
     position: static;
     margin-top: 12px;
     li {
-      line-height: 20px;
+      line-height: 1.4;
+      min-width: 300px;
     }
   }
   #menu {
@@ -183,7 +182,7 @@
 }
 
 @media (min-width: 751px) and (max-width: 900px) {
-  .header-wrapper {
+  header {
     .header {
       justify-content: center;
       height: auto;
@@ -219,7 +218,7 @@
 }
 
 @media (min-width: 1000px) {
-  .header-wrapper {
+  header {
     .header {
       justify-content: space-between;
       height: $header_height;

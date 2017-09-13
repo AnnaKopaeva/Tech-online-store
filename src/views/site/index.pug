@@ -1,6 +1,6 @@
 extends /extends/layout
 include /mixins/header
-include /mixins/items
+include /mixins/catalog
 include /mixins/footer
 
 
@@ -8,8 +8,8 @@ block content
   .content
     +header
     .main
-      .items-wrapper
-        .items
-          +items-element
+      .catalog-wrapper.limit
+        .catalog
+          +catalog-element
     +footer
 
