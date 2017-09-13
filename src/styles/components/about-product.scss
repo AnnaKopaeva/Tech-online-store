@@ -27,33 +27,27 @@
     display: inline-block;
     font-family: $Roboto;
     font-size: 14px;
-    cursor: pointer;
     &:last-child {
       .fa-angle-right {
         display: none;
       }
-    }
-    &:hover {
-      text-decoration: underline;
-      text-decoration-color: $dark-granit;
       .breadcrumbs__text {
-        color: $dark-granit;
-      }
-      &:last-child {
-        text-decoration: none;
-        a {
-          cursor: default;
-        }
-        .breadcrumbs__text {
-          color: $light-granit;
-        }
+        pointer-events: none;
       }
     }
     .breadcrumbs__text {
       color: $light-granit;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: $dark-granit;
+        color: $dark-granit;
+        &:last-child {
+          text-decoration: none;
+          color: $light-granit;
+        }
+      }
     }
     .fa-angle-right {
-      cursor: default;
       color: $light-granit;
       padding: 0 4px;
     }
@@ -82,6 +76,9 @@
     line-height: 21px;
     color: $dark-grey;
     margin-top: -6px;
+  }
+  .description__text.next {
+    margin-top: 20px;
   }
   .description__price {
     margin-top: 32px;

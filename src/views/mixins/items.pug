@@ -38,7 +38,10 @@ mixin items-element
         price: "45 000",
         imgSrc: "Item4.png",
         lineSrc: "Line4.png"
-      }, {
+      }
+    ];
+    var propItems4 = [
+      {
         name: "Шнекоротор",
         price: "132 990",
         imgSrc: "Item5.png",
@@ -85,17 +88,32 @@ mixin items-element
             class="block_item__line")
 
   ul.bottom-block
-    each item in propItems3
-      li.block_item
-        a(href="#")
-          img(src=`./images/itemImg/${item.imgSrc}`
+    .wrapper-block_item.bottom-left
+      each item in propItems3
+        li.block_item
+          a(href="#")
+            img(src=`./images/itemImg/${item.imgSrc}`
+              alt="product"
+              class="block_item__img")
+          .block_item__about
+            a(href="#"
+              class="block_item__name")= item.name
+            span(class="block_item__price")= item.price + " ₽"
+          img(src=`./images/line/${item.lineSrc}`
+            alt="line to product"
+            class="block_item__line")
+    .wrapper-block_item.bottom-right
+      each item in propItems4
+        li.block_item
+          a(href="#")
+            img(src=`./images/itemImg/${item.imgSrc}`
             alt="product"
             class="block_item__img")
-        .block_item__about
-          a(href="#"
+          .block_item__about
+            a(href="#"
             class="block_item__name")= item.name
-          span(class="block_item__price")= item.price + " ₽"
-        img(src=`./images/line/${item.lineSrc}`
+            span(class="block_item__price")= item.price + " ₽"
+          img(src=`./images/line/${item.lineSrc}`
           alt="line to product"
           class="block_item__line")
 

@@ -4,12 +4,10 @@
   .footer {
     margin: auto;
     max-width: $width_main_block;
-    padding: 0 15px;
+    padding: 57px 15px 50px 15px;
     font-family: Arial, 'sans-serif';
     display: flex;
     justify-content: space-between;
-    padding-top: 57px;
-    padding-bottom: 50px;
   }
 }
 
@@ -24,8 +22,6 @@
 }
 .phone {
   color: $dark-grey;
-  margin-top: -3px;
-  margin-left: -47px;
   .phone__text {
     display: block;
     color: $dark-grey;
@@ -75,6 +71,48 @@
         opacity: 0.8;
       }
     }
-
   }
 }
+
+
+@media (min-width: 300px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    .phone {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+    .company {
+      margin-top: 30px;
+      .company__text {
+        text-align: center;
+      }
+      .company__img {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .footer {
+    flex-direction: row;
+    text-align: auto;
+    .phone {
+      margin-top: -3px;
+      margin-left: -47px;
+    }
+    .company {
+      margin-top: 3px;
+      .company__text {
+        text-align: auto;
+      }
+      .company__img {
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 300px) {}
