@@ -10,14 +10,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/styles/main.min.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/mixins/slider.pug" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/about-product.scss" afterPath="$PROJECT_DIR$/src/styles/components/about-product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/footer.scss" afterPath="$PROJECT_DIR$/src/styles/components/footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/header.scss" afterPath="$PROJECT_DIR$/src/styles/components/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/items.scss" afterPath="$PROJECT_DIR$/src/styles/components/items.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/breadcrumbs.pug" afterPath="$PROJECT_DIR$/src/views/mixins/breadcrumbs.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/description.pug" afterPath="$PROJECT_DIR$/src/views/mixins/description.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/items.pug" afterPath="$PROJECT_DIR$/src/views/mixins/items.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/table.scss" afterPath="$PROJECT_DIR$/src/styles/components/table.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/about-product.pug" afterPath="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/mixins/slider_element.pug" afterPath="$PROJECT_DIR$/src/views/mixins/slider_element.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,31 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="items.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/components/items.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="382">
+              <caret line="237" column="25" lean-forward="false" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/components/header.scss">
+      <file leaf-file-name="table.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/table.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -67,6 +56,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="105" column="29" lean-forward="false" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-product.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/about-product.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1261">
+              <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider_element.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/mixins/slider_element.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="161" column="18" lean-forward="false" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -121,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/views/mixins/characteristics.pug" />
         <option value="$PROJECT_DIR$/build/vendors/bundle.js" />
         <option value="$PROJECT_DIR$/src/styles/components/thumbnail-slider.scss" />
-        <option value="$PROJECT_DIR$/src/views/mixins/slider_element.pug" />
         <option value="$PROJECT_DIR$/src/vendors/bundle.min.js" />
         <option value="$PROJECT_DIR$/src/vendors/bundle.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/slider.js" />
@@ -133,21 +151,22 @@
         <option value="$PROJECT_DIR$/src/scripts/components/script.js" />
         <option value="$PROJECT_DIR$/src/views/mixins/header.pug" />
         <option value="$PROJECT_DIR$/src/styles/components/global.scss" />
-        <option value="$PROJECT_DIR$/src/styles/components/table.scss" />
         <option value="$PROJECT_DIR$/src/views/mixins/footer.pug" />
         <option value="$PROJECT_DIR$/src/styles/components/characteristics.scss" />
-        <option value="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
         <option value="$PROJECT_DIR$/src/styles/themes/_colors.scss" />
         <option value="$PROJECT_DIR$/src/views/mixins/basis.pug" />
         <option value="$PROJECT_DIR$/src/views/mixins/breadcrumbs.pug" />
         <option value="$PROJECT_DIR$/src/views/includes/scripts.pug" />
         <option value="$PROJECT_DIR$/src/views/includes/head.pug" />
         <option value="$PROJECT_DIR$/src/views/mixins/description.pug" />
-        <option value="$PROJECT_DIR$/src/styles/components/about-product.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/footer.scss" />
-        <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
         <option value="$PROJECT_DIR$/src/views/mixins/items.pug" />
         <option value="$PROJECT_DIR$/src/styles/components/items.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/table.scss" />
+        <option value="$PROJECT_DIR$/src/views/mixins/about-product.pug" />
+        <option value="$PROJECT_DIR$/src/views/mixins/slider_element.pug" />
+        <option value="$PROJECT_DIR$/src/styles/components/about-product.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
       </list>
     </option>
   </component>
@@ -342,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gulp.js.gulp build">
+  <component name="RunManager" selected="Gulp.js.gulp server">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -402,7 +421,7 @@
       <updated>1504852078496</updated>
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
-      <workItem from="1505034336835" duration="119735000" />
+      <workItem from="1505034336835" duration="127716000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -621,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505227333590</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added mobile version for main">
+      <created>1505287158373</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1505287158373</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160709000" />
+    <option name="totallyTimeSpent" value="168690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -683,7 +709,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed links" />
     <MESSAGE value="Added page product" />
     <MESSAGE value="Changed page product" />
     <MESSAGE value="Added slider" />
@@ -708,7 +733,8 @@
     <MESSAGE value="Added style to file" />
     <MESSAGE value="Change style background" />
     <MESSAGE value="Change style fond" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change style fond" />
+    <MESSAGE value="Added mobile version for main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mobile version for main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -845,14 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/thumbnail-slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/vendors/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2414">
@@ -892,14 +910,6 @@
           <folding>
             <marker date="1505192765027" expanded="true" signature="13633:13640" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/mixins/slider.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,26 +971,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/mixins/slider_element.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/mixins/characteristics.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1009,22 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/characteristics.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/table.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/mixins/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1045,22 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/mixins/about-product.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/mixins/description.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1089,10 +1051,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/about-product.scss">
+    <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/thumbnail-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/table.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/characteristics.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/mixins/characteristics.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/mixins/description.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/mixins/about-product.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/mixins/slider.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/mixins/slider_element.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1105,26 +1131,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
+    <entry file="file://$PROJECT_DIR$/src/styles/components/items.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="382">
+          <caret line="237" column="25" lean-forward="false" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/about-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1261">
+          <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/items.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="161">
+          <caret line="161" column="18" lean-forward="false" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="18" />
           <folding />
         </state>
       </provider>

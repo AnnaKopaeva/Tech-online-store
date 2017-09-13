@@ -51,6 +51,7 @@
       padding-bottom: 10px;
       border-bottom: 2px solid transparent;
       transition: border-bottom 0.5s;
+      vertical-align: top;
     }
     &:hover {
       background: repeating-linear-gradient(
@@ -158,9 +159,9 @@
     height: 100vh;
     padding: 20px;
     overflow: auto;
+    margin-top: 28px;
     li {
       display: block;
-      max-width: 80%;
       white-space: normal;
       &:nth-child(2) {
         max-width: 100%;
@@ -170,9 +171,14 @@
   }
   .header__nav-items {
     position: static;
+    margin-top: 12px;
+    li {
+      line-height: 20px;
+    }
   }
   #menu {
     display: block;
+    z-index: 2;
   }
 }
 
