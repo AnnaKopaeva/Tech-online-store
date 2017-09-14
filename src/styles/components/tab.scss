@@ -21,29 +21,27 @@
   vertical-align: bottom;
 
   .tabs__img-black {
-    display: none;
-  }
-  .tabs__img, .tabs__img-black {
     padding-right: 8px;
+    opacity: 0.7;
+    transition: opacity 0.5s;
   }
   .tabs__name {
     font-size: 15px;
-    color: $dark-granit;
-    transition: color 0.5s;
+    color: $black;
     font-weight: 700;
+    opacity: 0.7;
+    transition: opacity 0.5s;
   }
+}
+
+.tabs__img {
+  display: none;
 }
 
 .active {
   border-bottom: 1px solid $light-orange;
-  .tabs__name {
-    color: $black;
-  }
-  .tabs__img {
-    display: none;
-  }
-  .tabs__img-black {
-    display: inline-block;
+  .tabs__name, .tabs__img-black {
+    opacity: 1;
   }
 }
 

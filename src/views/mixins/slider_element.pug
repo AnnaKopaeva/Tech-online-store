@@ -1,19 +1,18 @@
 mixin slider-element
   -
     var sliderImg = ["Layer1", "Layer3", "Layer4", "Layer5"];
-  div(id="demowrap")
-    div(style="margin:0px auto;")
-      div(id="ninja-slider" style="float:left;")
-        div(class="slider-inner")
+  div#demowrap
+      div#ninja-slider
+        div.slider-inner
           ul
             each item in sliderImg
               li
                 a(class="ns-img" href=`./images/slider/${item}.png`)
 
-          div(class="fs-icon" title="Expand/Close")
+          div.fs-icon
 
-      div(id="thumbnail-slider")
-        div(class="inner")
+      div#thumbnail-slider
+        div.inner
           ul
             each item in sliderImg
               li

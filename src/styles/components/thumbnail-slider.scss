@@ -16,7 +16,8 @@
   padding:0;
 
   /*the followings should not be changed */
-  height:100%;  box-sizing:border-box;
+  height:100%;
+  box-sizing:border-box;
   position:relative;
   overflow:hidden;
   margin:0;
@@ -127,25 +128,28 @@
 /* arrows */
 #thumbnail-slider-prev::before, #thumbnail-slider-next::before {
   position:absolute;
-  content: "";
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-left:-5px;
-  border-left: 4px solid white;
-  border-top: 4px solid white;
+  margin-left: -5px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 21px;
 }
 
 #thumbnail-slider-prev::before {
-  top:12px;
-  -ms-transform:rotate(-45deg);/*IE9*/
-  -webkit-transform:rotate(45deg);
-  transform: rotate(45deg);
+  content: "\f106";
 }
 
 #thumbnail-slider-next::before {
-  bottom:12px;
-  -ms-transform:rotate(135deg);/*IE9*/
-  -webkit-transform:rotate(-135deg);
-  transform: rotate(-135deg);
+  content: "\f107";
+}
+
+@media (min-width: 1001px) {
+  div#ninja-slider, div#ninja-slider .slider-inner, div#ninja-slider li  {
+    height: 390px!important;
+  }
+  div#thumbnail-slider {
+    height: calc(390px - 70px);
+  }
 }

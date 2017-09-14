@@ -91,11 +91,11 @@
 
 .video {
   padding-top: 82px;
-  margin: auto;
+  max-width: 860px;
 }
 
 iframe {
-  width: 860px;
+  width: 100%;
   height: 512px;
 }
 
@@ -115,16 +115,6 @@ iframe {
   }
 }
 
-@media (max-width: 900px) {
-  .video {
-    text-align: center;
-  }
-  iframe {
-    width: 640px;
-    height: 400px;
-  }
-}
-
 @media (max-width: 750px) {
   div#thumbnail-slider {
     display: none;
@@ -141,7 +131,6 @@ iframe {
     width: 490px;
   }
   iframe {
-    width: 470px;
     height: 350px;
   }
 }
@@ -154,7 +143,6 @@ iframe {
     width: 370px;
   }
   iframe {
-    width: 360px;
     height: 240px;
   }
 }
@@ -167,7 +155,6 @@ iframe {
     width: 290px;
   }
   iframe {
-    width: 290px;
     height: 240px;
   }
 
