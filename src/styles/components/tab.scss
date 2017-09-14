@@ -17,20 +17,20 @@
   margin-right: 26px;
   border-bottom: 1px solid transparent;
   display: inline-block;
-  transition: border-bottom 0.5s;
+  transition: border-bottom $time;
   vertical-align: bottom;
 
   .tabs__img-black {
     padding-right: 8px;
     opacity: 0.7;
-    transition: opacity 0.5s;
+    transition: opacity $time;
   }
   .tabs__name {
     font-size: 15px;
     color: $black;
     font-weight: 700;
     opacity: 0.7;
-    transition: opacity 0.5s;
+    transition: opacity $time;
   }
 }
 

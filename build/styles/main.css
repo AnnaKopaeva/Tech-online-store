@@ -3656,16 +3656,16 @@ header .header {
   width: 18px;
   height: 12px;
   margin: 0 20px;
-  -webkit-transition: all 600ms ease-in-out;
-  transition: all 600ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .line-wrapp .line {
   width: 18px;
   height: 2px;
   background-color: #fff;
-  -webkit-transition: all 600ms ease-in-out;
-  transition: all 600ms ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .line-wrapp .line.center {
@@ -3982,7 +3982,7 @@ header .header {
   height: 0;
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0;
   border-top: 50px solid #f3f3f3;
   border-right: 12px solid transparent;
 }
@@ -3992,7 +3992,7 @@ header .header {
   width: 0;
   height: 0;
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 0;
   border-bottom: 51px solid #f3f3f3;
   border-left: 6px solid transparent;
@@ -4082,8 +4082,8 @@ footer {
 
 footer .footer {
   margin: auto;
-  max-width: 1200px;
-  padding: 57px 15px 50px 15px;
+  padding-top: 57px;
+  padding-bottom: 50px;
   font-family: Arial, 'sans-serif';
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4255,6 +4255,8 @@ h2 {
 
 .breadcrumbs .breadcrumbs__item .breadcrumbs__text {
   color: #999999;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 .breadcrumbs .breadcrumbs__item .breadcrumbs__text:hover {
