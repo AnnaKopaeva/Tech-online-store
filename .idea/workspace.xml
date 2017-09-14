@@ -11,24 +11,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/about-product.scss" afterPath="$PROJECT_DIR$/src/styles/components/about-product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/catalog.scss" afterPath="$PROJECT_DIR$/src/styles/components/catalog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/footer.scss" afterPath="$PROJECT_DIR$/src/styles/components/footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/header.scss" afterPath="$PROJECT_DIR$/src/styles/components/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/tab.scss" afterPath="$PROJECT_DIR$/src/styles/components/tab.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/themes/_colors.scss" afterPath="$PROJECT_DIR$/src/styles/themes/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/site/index.pug" afterPath="$PROJECT_DIR$/src/views/site/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/site/product.pug" afterPath="$PROJECT_DIR$/src/views/site/product.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/about-product.pug" afterPath="$PROJECT_DIR$/src/views/object/about-product.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/basis.pug" afterPath="$PROJECT_DIR$/src/views/object/basis.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/breadcrumbs.pug" afterPath="$PROJECT_DIR$/src/views/object/breadcrumbs.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/catalog.pug" afterPath="$PROJECT_DIR$/src/views/object/catalog.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/description.pug" afterPath="$PROJECT_DIR$/src/views/object/description.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/footer.pug" afterPath="$PROJECT_DIR$/src/views/object/footer.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/header.pug" afterPath="$PROJECT_DIR$/src/views/object/header.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/slider_element.pug" afterPath="$PROJECT_DIR$/src/views/object/slider_element.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/tab.pug" afterPath="$PROJECT_DIR$/src/views/object/tab.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/mixins/table.pug" afterPath="$PROJECT_DIR$/src/views/object/table.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +25,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="172" column="19" lean-forward="false" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -133,10 +127,10 @@
         <option value="$PROJECT_DIR$/src/views/site/product.pug" />
         <option value="$PROJECT_DIR$/src/styles/themes/_colors.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/footer.scss" />
-        <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/about-product.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/catalog.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/tab.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
       </list>
     </option>
   </component>
@@ -398,7 +392,7 @@
       <workItem from="1504852080152" duration="40658000" />
       <workItem from="1504994699790" duration="316000" />
       <workItem from="1505034336835" duration="136928000" />
-      <workItem from="1505366631918" duration="9432000" />
+      <workItem from="1505366631918" duration="10396000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -652,11 +646,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505399098877</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Changed the structure of the project">
+      <created>1505402069150</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1505402069150</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187334000" />
+    <option name="totallyTimeSpent" value="188298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -714,7 +715,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added script to production" />
     <MESSAGE value="Added script to bundle" />
     <MESSAGE value="Changed slider element" />
     <MESSAGE value="Changed slider element part-2" />
@@ -739,7 +739,8 @@
     <MESSAGE value="Added corrected for slider" />
     <MESSAGE value="Added new corrected for slider" />
     <MESSAGE value="Added new corrected for video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new corrected for video" />
+    <MESSAGE value="Changed the structure of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the structure of the project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -931,6 +932,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,6 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -945,6 +948,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,14 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="199" column="18" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/about-product.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1114,6 +1110,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="172" column="19" lean-forward="false" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
           <folding />
         </state>
       </provider>

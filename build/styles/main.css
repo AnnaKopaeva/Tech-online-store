@@ -3720,6 +3720,7 @@ header .header {
   .header__nav-items {
     position: static;
     margin-top: 12px;
+    padding-left: 0;
   }
   .header__nav-items li {
     line-height: 1.4;
