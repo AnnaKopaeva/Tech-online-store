@@ -13,26 +13,36 @@
   max-width: 240px;
   font-family: 'Roboto', sans-serif;
   flex: 2;
+  &:hover {
+    .block_item__img {
+      opacity: 0.8;
+    }
+    .block_item__name {
+      color: $orange;
+    }
+
+  }
+  .block_item__img {
+    opacity: 1;
+    transition: opacity $time;
+  }
   .block_item__about {
     display: block;
-    .block_item__name {
-      display: block;
-      text-decoration: none;
-      color: $font-color;
-      font-size: 14px;
-      line-height: 1.1;
-      padding-top: 9px;
-      transition: color $time;
-      &:hover {
-        color: $orange;
-      }
-    }
     .block_item__price {
       font-weight: 900;
       color: $font-color;
       font-size: 18px;
       line-height: 1.3;
     }
+  }
+  .block_item__name {
+    display: block;
+    text-decoration: none;
+    color: $font-color;
+    font-size: 14px;
+    line-height: 1.1;
+    padding-top: 9px;
+    transition: color $time;
   }
   .block_item__line {
     position: absolute;
