@@ -1,11 +1,11 @@
 @import '../themes/colors';
 
-header {
+.header {
   background-color: $dark;
   position: fixed;
   z-index: 15;
   width: 100%;
-  .header {
+  .header-wrapper {
     height: $header_height;
     margin: auto;
     display: flex;
@@ -91,7 +91,7 @@ header {
     cursor: default;
     display: block;
     text-transform: uppercase;
-    min-width: 360px;
+    min-width: 375px;
     &:hover {
       a {
         border-bottom: none;
@@ -139,8 +139,8 @@ header {
 }
 
 @media (max-width: 750px) {
-  header {
-    .header {
+  .header {
+    .header-wrapper {
       position: relative;
     }
   }
@@ -184,8 +184,8 @@ header {
 }
 
 @media (min-width: 751px) and (max-width: 900px) {
-  header {
-    .header {
+  .header {
+    .header-wrapper {
       justify-content: center;
       height: auto;
     }
@@ -220,8 +220,8 @@ header {
 }
 
 @media (min-width: 1000px) {
-  header {
-    .header {
+  .header {
+    .header-wrapper {
       justify-content: space-between;
       height: $header_height;
     }

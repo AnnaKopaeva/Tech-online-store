@@ -54,70 +54,70 @@ mixin catalog-element
       }
     ];
 
-  .wrapper_blocks
-    ul.left-block
+  .catalog__blocks
+    ul.catalog__list.catalog__list-left
       each item in propItems1
-        li.block_item
+        li.catalog__list-item
           a(href="#")
             img(src=`./images/itemImg/${item.imgSrc}`
               alt="product"
-              class="block_item__img")
-          .block_item__about
+              class="catalog__list-img")
+          .catalog__about
             a(href="#"
-              class="block_item__name")= item.name
-            span(class="block_item__price")= item.price
+              class="catalog__about-name")= item.name
+            span(class="catalog__about-price")= item.price
               i(class="fa fa-rub" aria-hidden="true")
           img(src=`./images/line/${item.lineSrc}`
             alt="line to product"
-            class="block_item__line")
+            class="catalog__about-line")
 
     +basis-element
 
-    ul.right-block
+    ul.catalog__list.catalog__list-right
       each item in propItems2
-        li.block_item
+        li.catalog__list-item
           a(href="#")
             img(src=`./images/itemImg/${item.imgSrc}`
               alt="product"
-              class="block_item__img")
-          .block_item__about
+              class="catalog__list-img")
+          .catalog__about
             a(href="#"
-              class="block_item__name")= item.name
-            span(class="block_item__price")= item.price
+              class="catalog__about-name")= item.name
+            span(class="catalog__about-price")= item.price
               i(class="fa fa-rub" aria-hidden="true")
           img(src=`./images/line/${item.lineSrc}`
             alt="line to product"
-            class="block_item__line")
+            class="catalog__about-line")
 
-  ul.bottom-block
+  ul.catalog__list-bottom
     .wrapper-block_item.bottom-left
       each item in propItems3
-        li.block_item
+        li.catalog__list-item
           a(href="#")
             img(src=`./images/itemImg/${item.imgSrc}`
               alt="product"
-              class="block_item__img")
-          .block_item__about
+              class="catalog__list-img")
+          .catalog__about
             a(href="#"
-              class="block_item__name")= item.name
-            span(class="block_item__price")= item.price
+              class="catalog__about-name")= item.name
+            span(class="catalog__about-price")= item.price
               i(class="fa fa-rub" aria-hidden="true")
           img(src=`./images/line/${item.lineSrc}`
             alt="line to product"
-            class="block_item__line")
+            class="catalog__about-line")
     .wrapper-block_item.bottom-right
       each item in propItems4
-        li.block_item
+        li.catalog__list-item
           a(href="#")
             img(src=`./images/itemImg/${item.imgSrc}`
             alt="product"
-            class="block_item__img")
-          .block_item__about
+            class="catalog__list-img")
+          .catalog__about
             a(href="#"
-            class="block_item__name")= item.name
-            span(class="block_item__price")= item.price
+              class="catalog__about-name")= item.name
+            span(class="catalog__about-price")= item.price
               i(class="fa fa-rub" aria-hidden="true")
           img(src=`./images/line/${item.lineSrc}`
-          alt="line to product"
-          class="block_item__line")
+            alt="line to product"
+            class="catalog__about-line")
 

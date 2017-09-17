@@ -1,8 +1,8 @@
 @import '../themes/colors';
 
-footer {
+.footer {
   background-color: $footer-color;
-  .footer {
+  .footer-wrapper {
     margin: auto;
     padding-top: 57px;
     padding-bottom: 50px;
@@ -65,7 +65,7 @@ footer {
 
 
 @media (max-width: 900px) {
-  .footer {
+  .footer-wrapper {
     flex-direction: column;
     text-align: center;
     .copyright {
