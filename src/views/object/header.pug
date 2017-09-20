@@ -6,9 +6,8 @@ mixin header
       nav
         ul.header__nav
           li
-            a(href="#") ЗНАКОМЬТЕСЬ: MUVO
-          li
             a(href="#") ОБОРУДОВАНИЕ
+              i(class="fa fa-angle-down" aria-hidden="true")
             ul.header__nav-items
               -
                 var list = ["базовое шасси", "вакуумное подметально-уборочное приспособление",
@@ -28,4 +27,7 @@ mixin header
           div(class="line top")
           div(class="line center")
           div(class="line bottom")
+      a.header-phone
+        i(class="fa fa-phone" aria-hidden="true")
+        span +7 (499) 506-94-71
 

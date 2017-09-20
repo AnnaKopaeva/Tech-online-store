@@ -77,18 +77,57 @@
     }
   }
 }
+.description__info {
+  width: 100%;
+  background-color: $light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  padding-top: 20px;
+}
+
 .description__price {
-  margin-top: 32px;
   color: $dark-granit;
   font-size: 14px;
   text-transform: uppercase;
+  display: table;
+  text-align: center;
 }
 
 .description__price-value {
+  display: block;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.01em;
   color: $dark-font-color;
+}
+.description__connection {
+  display: table;
+  padding: 10px 15px 0 15px;
+}
+
+.description__button {
+  display: block;
+  width: 220px;
+  height: 36px;
+  border: none;
+  outline: none;
+  background-color: $new-orange;
+  border-radius: 1px;
+  font-size: 14px;
+  color: $light;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color $time;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:hover {
+    background-color: $hover-orange;
+  }
 }
 
 .video {

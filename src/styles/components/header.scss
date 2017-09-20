@@ -30,6 +30,10 @@
   display: inline-flex;
   align-items: stretch;
   height: 100%;
+  .fa-angle-down {
+    padding-left: 4px;
+    vertical-align: top;
+  }
   li {
     font-size: 14px;
     color: $light;
@@ -108,6 +112,22 @@
   }
 }
 
+.header-phone {
+  font-family: $Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  color: $light;
+  cursor: pointer;
+  text-shadow: 1px 1px transparent;
+  transition: text-shadow $time;
+  &:hover {
+    text-shadow: 1px 1px rgba(255,255,255,0.4);
+  }
+  .fa-phone {
+    padding-right: 3px;
+  }
+}
+
 .line-wrapp {
   width: 18px;
   height: 12px;
@@ -138,6 +158,26 @@
   }
 }
 
+@media (max-width: 450px) {
+  .header__logo {
+    order: 0;
+  }
+  div#menu {
+    order: 1;
+  }
+  .line-wrapp {
+    padding-top: 25px;
+  }
+  .active-menu.line-wrapp {
+    padding-top: 0;
+  }
+  a.header-phone {
+    padding-right: 80px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
 @media (max-width: 750px) {
   .header {
     .header-wrapper {
@@ -145,7 +185,6 @@
     }
   }
   .header__logo {
-    padding: 15px 0;
     width: 155px;
   }
   .header__nav {
@@ -158,10 +197,10 @@
     height: 100vh;
     padding: 20px;
     overflow: auto;
-    margin-top: 28px;
     li {
       display: block;
       white-space: normal;
+      overflow: hidden;
       &:nth-child(2) {
         max-width: 100%;
         overflow: hidden;
@@ -177,7 +216,11 @@
       min-width: 300px;
     }
   }
+  .header-phone {
+    order: 2;
+  }
   #menu {
+    order: 3;
     display: block;
     z-index: 2;
   }
@@ -188,13 +231,17 @@
     .header-wrapper {
       justify-content: center;
       height: auto;
+      padding-top: 25px;
+      align-items: center;
     }
   }
   .header__logo {
-    margin: 0 62px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    margin-right: 40px;
     width: auto;
+    order: 1;
+  }
+  nav {
+    order: 3;
   }
   .header__nav {
     display: inline-block;
@@ -213,6 +260,9 @@
   }
   .header__nav-items {
     position: absolute;
+  }
+  .header-phone {
+    order: 2;
   }
   div.main {
     padding-top: 146px;
