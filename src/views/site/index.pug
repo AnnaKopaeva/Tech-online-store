@@ -1,7 +1,8 @@
 extends ../extends/layout
 include ../object/header
-include ../object/catalog
+include ../object/index/catalog
 include ../object/footer
+include ../object/presentation/presentation
 
 
 block content
@@ -11,5 +12,6 @@ block content
       .catalog-wrapper.limit
         .catalog
           +catalog-element
+      +presentation-element
     +footer
 
