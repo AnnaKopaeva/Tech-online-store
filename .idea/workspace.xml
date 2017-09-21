@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/scripts/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/styles/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/components/slider/ninja-slider.js" afterPath="$PROJECT_DIR$/src/scripts/components/slider/ninja-slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/catalog.scss" afterPath="$PROJECT_DIR$/src/styles/components/catalog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/footer.scss" afterPath="$PROJECT_DIR$/src/styles/components/footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.css" afterPath="$PROJECT_DIR$/build/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/styles/main.min.css" afterPath="$PROJECT_DIR$/build/styles/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/global.scss" afterPath="$PROJECT_DIR$/src/styles/components/global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/header.scss" afterPath="$PROJECT_DIR$/src/styles/components/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/merger.scss" afterPath="$PROJECT_DIR$/src/styles/components/merger.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/presentation/presentation.scss" afterPath="$PROJECT_DIR$/src/styles/components/presentation/presentation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/product/about-product.scss" afterPath="$PROJECT_DIR$/src/styles/components/product/about-product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/product/tab.scss" afterPath="$PROJECT_DIR$/src/styles/components/product/tab.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/product/table.scss" afterPath="$PROJECT_DIR$/src/styles/components/product/table.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/slider/ninja-slider.scss" afterPath="$PROJECT_DIR$/src/styles/components/slider/ninja-slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/slider/thumbnail-slider.scss" afterPath="$PROJECT_DIR$/src/styles/components/slider/thumbnail-slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/core/_base.scss" afterPath="$PROJECT_DIR$/src/styles/core/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/settings/_mixins.scss" afterPath="$PROJECT_DIR$/src/styles/settings/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/settings/_variables.scss" afterPath="$PROJECT_DIR$/src/styles/settings/_variables.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="global.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/components/global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="214">
+              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -81,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="presentation.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="presentation.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/components/presentation/presentation.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -206,12 +185,12 @@
         <option value="$PROJECT_DIR$/src/styles/components/slider/ninja-slider.scss" />
         <option value="$PROJECT_DIR$/src/scripts/components/slider/ninja-slider.js" />
         <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
-        <option value="$PROJECT_DIR$/src/styles/components/global.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/product/tab.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/product/table.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/product/about-product.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/footer.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/presentation/presentation.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/global.scss" />
       </list>
     </option>
   </component>
@@ -503,7 +482,7 @@
       <workItem from="1505034336835" duration="136928000" />
       <workItem from="1505366631918" duration="15401000" />
       <workItem from="1505643524283" duration="9684000" />
-      <workItem from="1505894674463" duration="56559000" />
+      <workItem from="1505894674463" duration="56922000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -820,11 +799,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506014460074</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Added adaptive view to button">
+      <created>1506026959293</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1506026959293</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259546000" />
+    <option name="totallyTimeSpent" value="259909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -859,7 +845,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed slider element part-8" />
     <MESSAGE value="Changed slider element to the full screen" />
     <MESSAGE value="Changed zoom element to the full screen" />
     <MESSAGE value="Changed desktop version" />
@@ -884,7 +869,8 @@
     <MESSAGE value="Changed phone position" />
     <MESSAGE value="Put the correct position of the blocks" />
     <MESSAGE value="Added adaptive view to the blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added adaptive view to the blocks" />
+    <MESSAGE value="Added adaptive view to button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added adaptive view to button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1227,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/product/tab.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1251,14 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/product/about-product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1271,6 +1241,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/product/about-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>
