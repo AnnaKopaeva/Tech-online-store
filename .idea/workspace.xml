@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="Changed phone position">
+    <list default="true" id="6305f846-997f-4fe4-9754-669b662297a2" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/product.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/scripts/main.js" afterPath="" />
@@ -11,14 +11,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendors/bundle.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/catalog.scss" afterPath="$PROJECT_DIR$/src/styles/components/catalog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/presentation/dignity.scss" afterPath="$PROJECT_DIR$/src/styles/components/presentation/dignity.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/presentation/presentation.scss" afterPath="$PROJECT_DIR$/src/styles/components/presentation/presentation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/object/presentation/dignity.pug" afterPath="$PROJECT_DIR$/src/views/object/presentation/dignity.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/object/presentation/maneuverability.pug" afterPath="$PROJECT_DIR$/src/views/object/presentation/maneuverability.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/object/presentation/platform.pug" afterPath="$PROJECT_DIR$/src/views/object/presentation/platform.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/object/presentation/workplace.pug" afterPath="$PROJECT_DIR$/src/views/object/presentation/workplace.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/site/index.pug" afterPath="$PROJECT_DIR$/src/views/site/index.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +31,8 @@
       <file leaf-file-name="presentation.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/components/presentation/presentation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+            <state relative-caret-position="324">
+              <caret line="292" column="22" lean-forward="false" selection-start-line="292" selection-start-column="22" selection-end-line="292" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -46,8 +41,8 @@
       <file leaf-file-name="platform.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/object/presentation/platform.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -56,8 +51,8 @@
       <file leaf-file-name="workplace.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/object/presentation/workplace.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="108" lean-forward="false" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="108" />
+            <state relative-caret-position="0">
+              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -76,8 +71,8 @@
       <file leaf-file-name="maneuverability.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/object/presentation/maneuverability.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+            <state relative-caret-position="81">
+              <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -137,9 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>trans</find>
-      <find>tr</find>
-      <find>tran</find>
       <find>fs-icon</find>
       <find>importa</find>
       <find>impo</find>
@@ -166,7 +158,10 @@
       <find>decision</find>
       <find>$light-font-color:</find>
       <find>catalog-</find>
+      <find>hei</find>
       <find>un</find>
+      <find>202</find>
+      <find>work</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Develop\online-tech-store</dir>
@@ -226,9 +221,9 @@
         <option value="$PROJECT_DIR$/src/views/object/presentation/dignity.pug" />
         <option value="$PROJECT_DIR$/src/styles/components/catalog.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/presentation/dignity.scss" />
+        <option value="$PROJECT_DIR$/src/views/object/presentation/platform.pug" />
         <option value="$PROJECT_DIR$/src/views/object/presentation/maneuverability.pug" />
         <option value="$PROJECT_DIR$/src/views/object/presentation/workplace.pug" />
-        <option value="$PROJECT_DIR$/src/views/object/presentation/platform.pug" />
         <option value="$PROJECT_DIR$/src/styles/components/presentation/presentation.scss" />
       </list>
     </option>
@@ -492,7 +487,7 @@
       <workItem from="1505034336835" duration="136928000" />
       <workItem from="1505366631918" duration="15401000" />
       <workItem from="1505643524283" duration="9684000" />
-      <workItem from="1505894674463" duration="43791000" />
+      <workItem from="1505894674463" duration="51108000" />
     </task>
     <task id="LOCAL-00001" summary="Created main pages">
       <created>1505067111907</created>
@@ -795,11 +790,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505991333066</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Put the correct position of the blocks">
+      <created>1506005867944</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1506005867944</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246778000" />
+    <option name="totallyTimeSpent" value="254095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -834,7 +836,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed slider element part-6" />
     <MESSAGE value="Changed slider element part-7" />
     <MESSAGE value="Changed slider element part-8" />
     <MESSAGE value="Changed slider element to the full screen" />
@@ -859,7 +860,8 @@
     <MESSAGE value="Added buttons to product page" />
     <MESSAGE value="Added info to main page" />
     <MESSAGE value="Changed phone position" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed phone position" />
+    <MESSAGE value="Put the correct position of the blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Put the correct position of the blocks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1214,34 +1216,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/object/presentation/platform.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/object/presentation/maneuverability.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+        <state relative-caret-position="81">
+          <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/object/presentation/workplace.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="108" lean-forward="false" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/object/presentation/platform.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/presentation/presentation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="122" column="22" lean-forward="false" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+        <state relative-caret-position="324">
+          <caret line="292" column="22" lean-forward="false" selection-start-line="292" selection-start-column="22" selection-end-line="292" selection-end-column="22" />
           <folding />
         </state>
       </provider>

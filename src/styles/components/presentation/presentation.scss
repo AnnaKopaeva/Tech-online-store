@@ -10,6 +10,19 @@
     .context__block-item {
       &:last-child {
         max-width: 610px;
+        flex-shrink: 3;
+      }
+    }
+  }
+  .context__block-img {
+    min-height: 365px;
+  }
+  .context__block-left {
+    .context__block-item {
+      &:nth-child(1) {
+        .context__block-img {
+          min-height: 184px;
+        }
       }
     }
   }
@@ -73,7 +86,7 @@
 .context__text-accented {
   border-top: 1px solid transparent;
   background-color: $yellow;
-  padding: 30px 20px 0 20px;
+  padding: 30px 20px 10px 20px;
   min-height: 458px;
 }
 
@@ -106,17 +119,26 @@
   padding-top: 89px;
   .context__block-left {
     .unicual {
-      padding-bottom: 15px;
+      margin-bottom: 11px;
     }
+    .context__block-item {
+      &:nth-child(1) {
+        .context__block-img {
+          min-height: auto;
+          height: 162px;
+        }
+      }
+    }
+  }
+  .context__block-img {
+    min-height: 336px;
   }
   .context__block-right {
     .context__block-item {
       &:first-child {
         max-width: 610px;
+        flex-shrink: 3;
       }
-    }
-    .unicual {
-      height: 335px;
     }
   }
   .context__text-accented {
@@ -127,20 +149,24 @@
 .workplace {
   padding-top: 95px;
   padding-bottom: 95px;
-  .context__block-left {
+  .context__block-center {
     .context__block-item {
-      &:last-child {
-        max-width: 925px;
-        .unicual {
-          padding-right: 16px;
-          height: 202px;
-        }
+      max-width: 925px;
+      flex-shrink: 3;
+      .unicual {
+        padding-right: 16px;
+        max-height: 202px;
+        min-height: auto;
+        flex-shrink: 3;
       }
     }
   }
-  .context__block-main-img {
-    height: 327px;
+  .context__block-left, .context__block-center {
+    .context__block-img {
+      min-height: 327px;
+    }
   }
+
   .context__text-accented {
     min-height: 307px;
   }
@@ -151,8 +177,14 @@
   min-height: 697px;
   .context__block-left {
     .context__block-item {
+      &:nth-child(2) {
+        .context__block-img {
+          height: 584px;
+        }
+      }
       &:last-child {
         max-width: 610px;
+        flex-shrink: 3;
       }
     }
     .unicual {
@@ -160,12 +192,107 @@
     }
   }
   .context__text-accented {
-    min-height: 380px;
-    margin-bottom: 14px;
+    min-height: 384px;
+    margin-bottom: 20px;
   }
   .first-text-block {
     margin-top: 0;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .decision, .maneuverability, .workplace, .platform {
+    justify-content: center;
+    flex-wrap: wrap;
+    .context__block-right {
+      margin-top: 20px;
+    }
+  }
+  .workplace {
+    .context__block-center {
+      order: 1;
+      margin-top: 20px;
+    }
+    .context__block-right {
+      margin-top: 0px;
+    }
+  }
+  .platform {
+    .context__block-left {
+      .context__block-item {
+        &:last-child {
+          max-width: 312px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .decision, .platform {
+    .context__block-left {
+      .context__block-item {
+        &:last-child{
+          display: none;
+        }
+      }
+    }
+  }
+  .workplace {
+    .context__block-center {
+      .context__block-img {
+        display: none;
+      }
+      .context__block-item {
+        max-width: 312px;
+        .unicual {
+          display: none;
+        }
+      }
+      .context__text-wrapper {
+        margin-top: 0;
+        flex-wrap: wrap;
+      }
+    }
+    .context__block-right {
+      margin-top: 20px;
+    }
+    .context__text-accented {
+      margin-top: 10px;
+    }
+  }
+  .maneuverability {
+    .context__block-left {
+      flex-direction: column;
+      .context__block-item {
+        &:nth-child(1) {
+          .context__text {
+            margin-top: 0;
+            margin-bottom: 20px;
+          }
+          .context__block-img {
+            display: none;
+          }
+        }
+      }
+    }
+    .context__text-wrapper {
+      flex-wrap: wrap;
+      .context__text {
+        flex-basis: 530px;
+        &:first-child {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .platform {
+    .context__block-left {
+      .unicual {
+        display: none;
+      }
+    }
   }
 }
 
