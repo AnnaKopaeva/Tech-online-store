@@ -22,19 +22,19 @@
 /// @prop {Number} vertical.xl [900px] - Huge
 
 $breakpoints: (
-  "horizontal": (
-    "xs": 400px,
-    "sm": 500px,
-    "md": 700px,
-    "lg": 900px,
-    "xl": 1050px
+  'horizontal': (
+    'xs': 400px,
+    'sm': 500px,
+    'md': 700px,
+    'lg': 900px,
+    'xl': 1050px
   ),
-  "vertical": (
-    "xs": 300px,
-    "sm": 450px,
-    "md": 600px,
-    "lg": 750px,
-    "xl": 900px
+  'vertical': (
+    'xs': 300px,
+    'sm': 450px,
+    'md': 600px,
+    'lg': 750px,
+    'xl': 900px
   )
 );
 
@@ -45,5 +45,5 @@ $breakpoints: (
 /// @prop {String} colors.red [#e32118] - Red
 
 $colors: (
-  "red": #e32118,
+  'red': #e32118,
 );

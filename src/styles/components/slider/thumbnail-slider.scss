@@ -87,7 +87,7 @@
 }
 
 /* --------- navigation controls ------- */
-/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */
+/* The nav id should be: slider id + ('-prev', '-next', and '-pause-play') */
 
 #thumbnail-slider-pause-play {display:none;} /*.pause*/
 
@@ -138,11 +138,11 @@
 }
 
 #thumbnail-slider-prev::before {
-  content: "\f106";
+  content: '\f106';
 }
 
 #thumbnail-slider-next::before {
-  content: "\f107";
+  content: '\f107';
 }
 
 @media (min-width: 1001px) {

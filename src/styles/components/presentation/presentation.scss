@@ -1,4 +1,4 @@
-@import "dignity";
+@import 'dignity';
 
 .decision {
   background-color: #fff;
@@ -107,7 +107,7 @@
 
 .maneuverability, .workplace, .platform {
   background-color: #fff;
-  padding: 100px 30px 100px 30px;
+  padding: 100px 30px 95px 30px;
   font-family: $Roboto;
   display: flex;
   justify-content: space-between;
@@ -116,7 +116,7 @@
 }
 
 .maneuverability {
-  padding-top: 89px;
+  padding-bottom: 100px;
   .context__block-left {
     .unicual {
       margin-bottom: 11px;
@@ -147,8 +147,7 @@
 }
 
 .workplace {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 82px;
   .context__block-center {
     .context__block-item {
       max-width: 925px;

@@ -42,7 +42,7 @@
 }
 
 #ninja-slider div.fs-icon::before {
-  content: "\f00e";
+  content: '\f00e';
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -69,7 +69,7 @@
 }
 
 #ninja-slider.fullscreen div.fs-icon::before {
-  content: "\f00d";
+  content: '\f00d';
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -157,7 +157,7 @@
   position: absolute;
 }
 
-/* And if you have added the HTML: <div class="video-playbutton-layer"></div> */
+/* And if you have added the HTML: <div class='video-playbutton-layer'></div> */
 .video-playbutton-layer {
   background: transparent url(../css-img/video.png) no-repeat center center;
 }
@@ -176,7 +176,7 @@
   cursor:pointer;
 }
 #ninja-slider div.stopVideoIcon::before {
-  content:"+";
+  content:'+';
   color:white;
   font:bold 30px/30px arial;
   -webkit-transform:rotate(45deg);
@@ -186,7 +186,7 @@
 
 
 /* ---------Arrow buttons ------- */
-/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */
+/* The arrow button id should be: slider id + ('-prev', '-next', and '-pause-play') */
 #ninja-slider-pause-play { display:none;}
 
 #ninja-slider-prev, #ninja-slider-next
@@ -249,7 +249,7 @@
 #ninja-slider-prev::before, #ninja-slider-next::before {
   position: absolute;
   top: 17px;
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -276,7 +276,7 @@
 
 
 /*------ pager(nav bullets) ------*/
-/* The pager id should be: slider id + "-pager" */
+/* The pager id should be: slider id + '-pager' */
 
 #ninja-slider-pager { display:none;}
 

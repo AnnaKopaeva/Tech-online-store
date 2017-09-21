@@ -19,12 +19,12 @@ $(".line-wrapp").click(function () {
 });
 
 var nsOptions = {
-  sliderId: "ninja-slider",
-  transitionType: "fade", //"fade", "slide", "zoom", "kenburns 1.2" or "none"
+  sliderId: 'ninja-slider',
+  transitionType: 'fade', //"fade", "slide", "zoom", "kenburns 1.2" or "none"
   autoAdvance: false,
-  delay: "default",
+  delay: 'default',
   transitionSpeed: 700,
-  aspectRatio: "1:1",
+  aspectRatio: '1:1',
   initSliderByCallingInitFunc: false,
   shuffle: false,
   startSlideIndex: 0, //0-based
@@ -34,7 +34,7 @@ var nsOptions = {
   before: function before(currentIdx, nextIdx, manual) {
     if (manual && typeof mcThumbnailSlider != "undefined") mcThumbnailSlider.display(nextIdx);
   },
-  license: "mylicense"
+  license: 'mylicense'
 };
 
 var nslider = new NinjaSlider(nsOptions);

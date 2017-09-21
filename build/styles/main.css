@@ -51,7 +51,7 @@ img {
  */
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-rendering: optimizeSpeed;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -3565,6 +3565,7 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
 }
 
 .header__nav {
+  margin-left: -58px;
   font-family: "Roboto", sans-serif;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -3817,6 +3818,12 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
   }
 }
 
+@media (max-width: 1000px) {
+  .header__nav {
+    margin-left: 0;
+  }
+}
+
 @media (min-width: 1000px) {
   .header .header-wrapper {
     -webkit-box-pack: justify;
@@ -4034,7 +4041,7 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
 }
 
 .basis-block__about:before {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   position: absolute;
@@ -4045,7 +4052,7 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
 }
 
 .basis-block__about:after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   position: absolute;
@@ -4151,7 +4158,7 @@ ul.pgwSlider.narrow.listOnTheLeft > li, .pgwSlider.narrow.listOnTheLeft > ul > l
 
 .footer .footer-wrapper {
   margin: auto;
-  padding-top: 57px;
+  padding-top: 63px;
   padding-bottom: 50px;
   font-family: Arial, 'sans-serif';
   display: -webkit-box;
@@ -4279,7 +4286,7 @@ body {
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  padding-top: 26px;
+  padding-top: 16px;
   font-size: 36px;
 }
 
@@ -4294,7 +4301,7 @@ h2 {
 }
 
 .about-product {
-  padding-top: 25px;
+  padding-top: 39px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4386,13 +4393,8 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   padding: 30px;
-  padding-top: 20px;
+  padding-left: 25px;
 }
 
 .description__price {
@@ -4401,6 +4403,7 @@ h2 {
   text-transform: uppercase;
   display: table;
   text-align: center;
+  margin-top: 7px;
 }
 
 .description__price-value {
@@ -4413,11 +4416,19 @@ h2 {
 
 .description__connection {
   display: table;
-  padding: 10px 15px 0 15px;
+  padding: 0px 15px 0 36px;
 }
 
 .description__button {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 220px;
   height: 36px;
   border: none;
@@ -4451,7 +4462,22 @@ iframe {
   height: 512px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
+  .description__info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10px;
+  }
+  .description__price-value {
+    font-size: 34px;
+  }
+  .description__connection {
+    display: table;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 1120px) {
   .about-product {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4525,7 +4551,7 @@ iframe {
 }
 
 .tabs {
-  padding-top: 47px;
+  padding-top: 13px;
   font-family: "Arial", sans-serif;
 }
 
@@ -4620,11 +4646,23 @@ iframe {
 }
 
 .table .table__row .table__line-name {
-  max-width: 586px;
+  min-width: 335px;
 }
 
 .table .table__row .table__line-model {
   font-weight: 700;
+}
+
+@media (max-width: 750px) {
+  .table .table__row .table__line-name {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .table .table__row .table__line-name {
+    min-width: 100px;
+  }
 }
 
 /* Visit http://www.menucool.com/responsive-slider for instructions */
@@ -4677,7 +4715,7 @@ iframe {
 }
 
 #ninja-slider div.fs-icon::before {
-  content: "\f00e";
+  content: '\f00e';
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -4710,7 +4748,7 @@ iframe {
 }
 
 #ninja-slider.fullscreen div.fs-icon::before {
-  content: "\f00d";
+  content: '\f00d';
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -4797,7 +4835,7 @@ iframe {
   position: absolute;
 }
 
-/* And if you have added the HTML: <div class="video-playbutton-layer"></div> */
+/* And if you have added the HTML: <div class='video-playbutton-layer'></div> */
 .video-playbutton-layer {
   background: transparent url(../css-img/video.png) no-repeat center center;
 }
@@ -4816,7 +4854,7 @@ iframe {
 }
 
 #ninja-slider div.stopVideoIcon::before {
-  content: "+";
+  content: '+';
   color: white;
   font: bold 30px/30px arial;
   -webkit-transform: rotate(45deg);
@@ -4825,7 +4863,7 @@ iframe {
 }
 
 /* ---------Arrow buttons ------- */
-/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */
+/* The arrow button id should be: slider id + ('-prev', '-next', and '-pause-play') */
 #ninja-slider-pause-play {
   display: none;
 }
@@ -4913,7 +4951,7 @@ iframe {
 #ninja-slider-prev::before, #ninja-slider-next::before {
   position: absolute;
   top: 17px;
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -4940,7 +4978,7 @@ iframe {
 }
 
 /*------ pager(nav bullets) ------*/
-/* The pager id should be: slider id + "-pager" */
+/* The pager id should be: slider id + '-pager' */
 #ninja-slider-pager {
   display: none;
 }
@@ -5045,7 +5083,7 @@ iframe {
 }
 
 /* --------- navigation controls ------- */
-/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */
+/* The nav id should be: slider id + ('-prev', '-next', and '-pause-play') */
 #thumbnail-slider-pause-play {
   display: none;
 }
@@ -5100,11 +5138,11 @@ iframe {
 }
 
 #thumbnail-slider-prev::before {
-  content: "\f106";
+  content: '\f106';
 }
 
 #thumbnail-slider-next::before {
-  content: "\f107";
+  content: '\f107';
 }
 
 @media (min-width: 1001px) {
@@ -5329,7 +5367,7 @@ iframe {
 
 .maneuverability, .workplace, .platform {
   background-color: #fff;
-  padding: 100px 30px 100px 30px;
+  padding: 100px 30px 95px 30px;
   font-family: "Roboto", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5342,7 +5380,7 @@ iframe {
 }
 
 .maneuverability {
-  padding-top: 89px;
+  padding-bottom: 100px;
 }
 
 .maneuverability .context__block-left .unicual {
@@ -5369,8 +5407,7 @@ iframe {
 }
 
 .workplace {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 82px;
 }
 
 .workplace .context__block-center .context__block-item {

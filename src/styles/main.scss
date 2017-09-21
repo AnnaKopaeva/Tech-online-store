@@ -2,41 +2,41 @@
 // Settings
 // --------------------------------------------------
 
-@import "settings/variables";
-@import "settings/functions";
-@import "settings/mixins";
+@import 'settings/variables';
+@import 'settings/functions';
+@import 'settings/mixins';
 
 //
 // Core
 // --------------------------------------------------
 
-@import "core/reset";
-@import "core/base";
+@import 'core/reset';
+@import 'core/base';
 
 //
 // Objects
 // --------------------------------------------------
 
-@import "objects/sample";
-@import "../../bower_components/pgwslider/pgwslider.min";
-@import "../../node_modules/pgwslideshow/pgwslideshow.min";
-@import "../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome";
-@import "../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome-sprockets";
+@import 'objects/sample';
+@import '../../bower_components/pgwslider/pgwslider.min';
+@import '../../node_modules/pgwslideshow/pgwslideshow.min';
+@import '../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';
+@import '../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome-sprockets';
 
 //
 // Utilities
 // --------------------------------------------------
 
-@import "utilities/sample";
+@import 'utilities/sample';
 
 //
 // Components
 // --------------------------------------------------
 
-@import "components/merger";
+@import 'components/merger';
 
 //
 // Themes
 // --------------------------------------------------
 
-@import "themes/colors";
+@import 'themes/colors';

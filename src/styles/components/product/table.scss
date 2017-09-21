@@ -17,10 +17,29 @@
       padding: 10px 18px;
     }
     .table__line-name{
-      max-width: 586px;
+      min-width: 335px;
     }
     .table__line-model {
       font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .table {
+    .table__row {
+      .table__line-name {
+        min-width: 300px;
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .table {
+    .table__row {
+      .table__line-name {
+        min-width: 100px;
+      }
     }
   }
 }

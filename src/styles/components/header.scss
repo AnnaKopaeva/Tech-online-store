@@ -26,6 +26,7 @@
 }
 
 .header__nav {
+  margin-left: -58px;
   font-family: $Roboto;
   display: inline-flex;
   align-items: stretch;
@@ -252,6 +253,11 @@
   }
   div.main {
     padding-top: 146px;
+  }
+}
+@media (max-width: 1000px) {
+  .header__nav {
+    margin-left: 0;
   }
 }
 
