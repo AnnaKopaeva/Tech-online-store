@@ -1,3 +1,3 @@
 //= include components/script.js
-//= include components/ninja-slider.js
-//= include components/thumbnail-slider.js
+//= include components/slider/ninja-slider.js
+//= include components/slider/thumbnail-slider.js

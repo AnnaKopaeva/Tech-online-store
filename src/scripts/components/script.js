@@ -13,4 +13,5 @@ listElement.click(function () {
 $(".line-wrapp").click(function() {
   $(this).toggleClass("active-menu");
   $('.header__nav').toggle();
+  $('.header-phone').toggle();
 });
