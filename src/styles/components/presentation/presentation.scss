@@ -2,11 +2,10 @@
 
 .decision {
   background-color: #fff;
-  padding: 100px 30px 90px 30px;
+  padding: 100px 30px 76px 30px;
   font-family: $Roboto;
   display: flex;
   justify-content: space-between;
-  min-height: 764px;
   .context__block-right {
     .context__block-item {
       &:last-child {
@@ -14,12 +13,15 @@
       }
     }
   }
+  .context__text-accented {
+    min-height: 381px;
+  }
 }
 .main__description {
-  max-width: 297px;
-  padding: 30px 20px;
+  max-width: 302px;
+  padding: 25px 20px;
   background-color: $granit;
-  margin-right: 15px;
+  margin-right: 16px;
 }
 .main__description-category {
   font-weight: 700;
@@ -28,15 +30,16 @@
 }
 .main__description-title {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 31px;
+  text-transform: uppercase;
   color: $dark-font-color;
-  margin-top: 40px;
+  margin-top: 26px;
 }
 .main__description-text {
   font-size: 14px;
   line-height: 1.3;
   color: $dark-font-color;
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 .context__block {
@@ -45,7 +48,7 @@
 }
 
 .context__block-item {
-  max-width: 300px;
+  max-width: 312px;
   margin-right: 15px;
 }
 
@@ -63,7 +66,7 @@
     font-size: 14px;
     color: $dark-grey;
     line-height: 1.3;
-    margin-top: 20px;
+    margin-top: 9px;
   }
 }
 
@@ -72,6 +75,21 @@
   background-color: $yellow;
   padding: 30px 20px 0 20px;
   min-height: 458px;
+}
+
+.context__text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  .context__text {
+    margin-top: 0;
+    flex-basis: 300px;
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
 
 .maneuverability, .workplace, .platform {
@@ -85,31 +103,46 @@
 }
 
 .maneuverability {
+  padding-top: 89px;
+  .context__block-left {
+    .unicual {
+      padding-bottom: 15px;
+    }
+  }
   .context__block-right {
     .context__block-item {
       &:first-child {
         max-width: 610px;
       }
     }
+    .unicual {
+      height: 335px;
+    }
   }
-  .unicual {
-    padding-bottom: 15px;
+  .context__text-accented {
+    min-height: 301px;
   }
 }
+
 .workplace {
+  padding-top: 95px;
+  padding-bottom: 95px;
   .context__block-left {
     .context__block-item {
       &:last-child {
         max-width: 925px;
-        .context__text {
-          max-width: 290px;
-          display: inline-block;
-        }
         .unicual {
-          padding: 22px 16px 0 16px;
+          padding-right: 16px;
+          height: 202px;
         }
       }
     }
+  }
+  .context__block-main-img {
+    height: 327px;
+  }
+  .context__text-accented {
+    min-height: 307px;
   }
 }
 
@@ -122,5 +155,22 @@
         max-width: 610px;
       }
     }
+    .unicual {
+      padding-top: 15px;
+    }
+  }
+  .context__text-accented {
+    min-height: 380px;
+    margin-bottom: 14px;
+  }
+  .first-text-block {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .decision, .maneuverability, .workplace, .platform {
+    display: none;
   }
 }
