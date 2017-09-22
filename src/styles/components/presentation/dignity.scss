@@ -14,10 +14,10 @@
 
 .dignity__section {
   background-color: white;
-  padding: 30px 30px 20px 30px;
+  padding: 38px 30px 12px 30px;
   min-height: 300px;
   flex-basis: 605px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   &:nth-child(odd) {
     margin-right: 20px;
   }
@@ -37,6 +37,7 @@
   font-weight: 900;
   font-size: 22px;
   color: $dark-font-color;
+  letter-spacing: -0.1em;
 }
 
 .dignity__section-description {

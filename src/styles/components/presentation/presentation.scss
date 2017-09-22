@@ -1,5 +1,9 @@
 @import 'dignity';
 
+img {
+  object-fit: cover;
+}
+
 .decision {
   background-color: #fff;
   padding: 100px 30px 76px 30px;
@@ -43,7 +47,7 @@
 }
 .main__description-title {
   font-weight: 900;
-  font-size: 31px;
+  font-size: 26px; //30px
   text-transform: uppercase;
   color: $dark-font-color;
   margin-top: 26px;
@@ -67,11 +71,12 @@
 
 .context__text {
   margin-top: 20px;
-  padding-top: 15px;
+  padding-top: 10px;
   border-top: 1px solid $dark-font-color;
   h4 {
     font-weight: 900;
     font-size: 14px;
+    letter-spacing: -0.05em;
     color: $dark-font-color;
   }
   span {
@@ -147,7 +152,7 @@
 }
 
 .workplace {
-  padding-top: 82px;
+  padding-top: 90px;
   .context__block-center {
     .context__block-item {
       max-width: 925px;
@@ -208,22 +213,86 @@
       margin-top: 20px;
     }
   }
+  .decision {
+    .context__block-right {
+      .context__block-item {
+        &:first-child {
+          .context__block-img {
+            min-width: 302px;
+          }
+        }
+        &:last-child {
+          max-width: 637px;
+          .context__block-img {
+            min-width: 637px;
+            max-height: 371px;
+          }
+        }
+      }
+    }
+    .context__text-accented {
+      max-width: 302px;
+      min-height: 330px;
+    }
+  }
   .workplace {
     .context__block-center {
       order: 1;
       margin-top: 20px;
+      .context__block-item {
+        max-width: 954px;
+      }
+      .context__block-img {
+        &:first-child {
+          min-width: 954px;
+        }
+      }
     }
     .context__block-right {
       margin-top: 0px;
+    }
+    .context__block-left, .context__block-right {
+      .context__block-img {
+          min-width: 312px;
+          max-height: 327px;
+      }
     }
   }
   .platform {
     .context__block-left {
       .context__block-item {
+        &:first-child {
+          .context__block-img {
+            &:first-child {
+              min-width: 312px;
+            }
+          }
+        }
         &:last-child {
           max-width: 312px;
+          .context__block-img {
+            min-height: 686px;
+          }
         }
       }
+    }
+    .context__block-right {
+      .context__block-item {
+        max-width: 470px;
+        &:first-child {
+          .context__block-img {
+            &:last-child {
+              display: none;
+            }
+          }
+        }
+      }
+      .context__block-img {
+        min-width: 470px;
+      }
+    }
+    .context__text-accented {
+      min-height: 363px;
     }
   }
 }
@@ -234,6 +303,20 @@
       .context__block-item {
         &:last-child{
           display: none;
+        }
+      }
+    }
+  }
+  .decision {
+    .context__block-right {
+      .context__block-item {
+        &:last-child {
+          max-width: 312px;
+          .context__block-img {
+            max-width: 312px;
+            min-width: auto;
+            min-height: 371px;
+          }
         }
       }
     }
@@ -255,7 +338,14 @@
       }
     }
     .context__block-right {
+      margin-left: 10px;
       margin-top: 20px;
+      .context__block-item {
+        max-width: 302px;
+      }
+      .context__block-img {
+        min-width: 302px;
+      }
     }
     .context__text-accented {
       margin-top: 10px;
@@ -276,21 +366,52 @@
         }
       }
     }
+    .context__block-right {
+      .context__block-item{
+        &:first-child {
+          max-width: 302px;
+          .context__block-img {
+            display: none;
+          }
+        }
+      }
+    }
     .context__text-wrapper {
+      margin-top: 0;
       flex-wrap: wrap;
       .context__text {
         flex-basis: 530px;
         &:first-child {
-          margin-bottom: 20px;
+          margin-bottom: 50px;
         }
       }
     }
+    .context__text-accented {
+      min-height: 210px;
+      padding: 20px 20px 10px 20px;
+    }
   }
   .platform {
+    .context__block-right {
+      .context__block-item {
+        &:first-child {
+          max-width: 302px;
+        }
+        &:last-child {
+          max-width: 312px;
+        }
+        .context__block-img {
+          min-width: 302px;
+        }
+      }
+    }
     .context__block-left {
       .unicual {
         display: none;
       }
+    }
+    .context__text-accented {
+      min-height: 522px;
     }
   }
 }
